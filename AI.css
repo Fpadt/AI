@@ -1,0 +1,86 @@
+.slide blockquote {
+  position: relative;
+}
+
+.slide blockquote::after {
+  content: attr(data-author);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.gv_blue {
+  color: #005ABB;
+}
+
+.gv_orange {
+  color: ##EF8200";
+}
+
+.reveal .slides section .fragment.highlight_background-blue {
+	opacity: 1;
+	visibility: inherit;
+	transition-duration: 0s !important;
+}
+
+.reveal .slides section .fragment.highlight_background-blue.visible {
+  background-color:  #005ABB;
+}
+
+.reveal .slides section .fragment.highlight_background-orange {
+	opacity: 1;
+	visibility: inherit;
+	transition-duration: 0s !important;
+}
+
+.reveal .slides section .fragment.highlight_background-orange.visible {
+  background-color:  #EF8200;
+}
+
+dl:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 150%;
+    z-index: 400;
+/* 	max-height: max-content; */
+}
+
+dl > dt:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    /* border: 3px solid; */
+	/* #5e0900 or #22c0e8 for circle border*/
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+dl > dt, dl > dd {
+    margin: 6pt 0; /* was 20px */
+    padding-left: 60px;
+}
+
+
