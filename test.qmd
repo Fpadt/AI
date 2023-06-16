@@ -1,0 +1,56 @@
+---
+title: "Untitled"
+format: revealjs
+editor: visual
+---
+
+
+<!-- ## vid1 -->
+
+<!-- ```{=html} -->
+<!-- <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video> -->
+<!-- tst -->
+<!-- ``` -->
+<!-- ## vid2 -->
+
+<!-- <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"> -->
+
+<!-- </video> -->
+
+## 
+
+<section data-background-video="https://static.slid.es/site/homepage/v1/homepage-video-editor.mp4" data-background-video-loop data-background-video-muted>
+
+<h2>Video</h2>
+
+</section>
+
+## vid3
+
+<section data-background-video="AI2.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5">
+
+::: incremental
+-   test
+-   test2
+:::
+
+</section>
+
+##  {background-video="AI.mp4" background-opacity="0.3"}
+
+::: incremental
+-   test
+-   test2
+:::
+
+##  {background-video="https://videos.example.com/intro-cern.mp4"}
+
+##  {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
+
+##  {background-video="\"https://vimeo.com/548291297"}
+
+##  {background-video="https://videos.example.com/intro-cern.mp4"}
+
+##  {background-video="https://youtu.be/wo9vZccmqwc"}
+
+##  {background-video="https://vimeo.com/548291297"}
