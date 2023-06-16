@@ -294,7 +294,7 @@ gantt
 +--------------------------------------------------------------------------------------------------+
 :::
 
-## AI Subsets {.smaller visibility="hidden" }
+## AI Subsets {.smaller visibility="hidden"}
 
 +---------------------------------------------------------------+
 | <div>                                                         |
@@ -353,7 +353,7 @@ gantt
 6.  Natural Language Processing (NLP): NLP techniques enable computers to understand, interpret, and generate human language. It involves tasks like speech recognition, sentiment analysis, machine translation, and text generation.
 :::
 
-## {visibility="hidden"}
+##  {visibility="hidden"}
 
 +------------------------------------------------------------------------------------------------------+--------------------+
 | **Supervised Learning**                                                                              | -   Prediction     |
@@ -374,7 +374,6 @@ gantt
 |                                                                                                      |                    |
 | -   Generative Models                                                                                |                    |
 +------------------------------------------------------------------------------------------------------+--------------------+
-
 
 # Video's
 
@@ -402,7 +401,6 @@ ggplot(mtcars, aes(hp, mpg, color = am)) +
   geom_point() +  geom_smooth(formula = y ~ x, method = "loess")
 ```
 
-
 # Appendix {visibility="uncounted"}
 
 ## Statistical modeling {visibility="uncounted"}
@@ -415,18 +413,24 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 ## list of video's {visibility="uncounted"}
 
-- [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
+-   [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
 
-- [Faulty reward functions in the wild](https://youtu.be/tlOIHko8ySg)
+-   [Faulty reward functions in the wild](https://youtu.be/tlOIHko8ySg)
 
-- [Hide and Seek](https://youtu.be/kopoLzvh5jY)
+-   [Hide and Seek](https://youtu.be/kopoLzvh5jY)
 
-# Test  {visibility="uncounted"}
+# Test {visibility="uncounted"}
 
-## {background-video="intro-cern.mp4" visibility="uncounted"}
+##  {background-video="intro-cern.mp4" visibility="uncounted"}
 
-## {background-video="https://videos.example.com/intro-cern.mp4" visibility="uncounted"}
+##  {background-video="https://videos.example.com/intro-cern.mp4" visibility="uncounted"}
 
-## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" visibility="uncounted"}
+##  {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" visibility="uncounted"}
 
-## {background-video="https://vimeo.com/548291297" visibility="uncounted"}
+##  {background-video="https://vimeo.com/548291297" visibility="uncounted"}
+
+## {background-video="https://videos.example.com/intro-cern.mp4"}
+
+## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
+
+## {background-video="https://vimeo.com/548291297"}
