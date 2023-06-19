@@ -52,44 +52,7 @@ COL_FACTR <- "#9CEB91"
 COL___RED <- "#ff7f7f"
 ```
 
-## What is AI?
-
-. . .
-
-*simulating human-like intelligence*
-
-<br/>
-
-. . .
-
-::: r-fit-text
-| AI, or [**Artificial Intelligence**]{style="color: #005ABB"}, is the ability of a machine or a computer program to
-| think, act and learn like humans, without being explicitly programmed.
-:::
-
-<br/>
-
-. . .
-
-::: r-fit-text
-| AI has been around for decades,
-| but recent advancements in Generative AI applications are [**disruptive**]{style="color: #EF8200"} and
-| is [**transforming**]{style="color: #005ABB"} our lives.
-:::
-
-::: footer
-Learn more: [What is AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
-:::
-
-::: notes
-Generative AI refers to a type of AI that can generate new data that is similar to a given data set.
-
-This technology has the potential to revolutionize many industries
-:::
-
-## AI Impact
-
-<br/>
+##  {background-image="/images/JW_01.png" background-opacity="0.2" background-size="cover" background-color="#151C37"}
 
 . . .
 
@@ -109,7 +72,7 @@ It is more profound than, I dunno, electricity or fire.
 *- Sundar Pichai, CEO Alphabet Inc/Google -*
 :::
 
-<br/>
+<br/> <br/> <br/>
 
 . . .
 
@@ -127,56 +90,103 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 
 *- Mark Zuckerberg, CEO Meta*
 
-## Your other me
+## What is AI? {background-video="video/AI_01.mp4" background-opacity="0.2" background-video-loop="true"}
 
-picture of you and you avatar (taking the boring work or even more)
+. . .
 
-## Agenda
+*simulating* [human-like]{style="color: #005ABB"} intelligence, [**without**]{style="color: #EF8200"} explicit programming
 
--   How did we get here (time line)
--   What is it? Classification
--   what can it do -Demo of GPT models
--   AI Use Cases - now & in the near future
--   The down side and Risks
--   How do these models work
+. . .
 
-## Since when? {visibility="hidden"}
+<br/><br/>
 
-```{mermaid}
+::: {.incremental style="font-size:  60px;"}
++-------------------+--------------------+-----------------------+
+| 🎓 **Learn**      | 🤖 **Act**         |🧠 **Think**           |
++===================+====================+=======================+
+| -   Supervised    |                    |                       |
+| -   Unsupervised  |                    |                       |
+| -   Reinforcement |                    |                       |
++-------------------+--------------------+-----------------------+
+:::
 
+. . . 
 
-gantt
-    title History of AI
-    axisFormat %Y
-    todayMarker stroke-width:5px, stroke:#0f0, opacity:0.5
-    excludes 1900-1950
-    %% this is a comment
-    dateFormat  YYYY-MM-DD
-    
-    section Supervised Learning
-    Linear Regression    : active   , a10, 1860-01-01, 2023-07-19
-    Exponential Smooting : milestone, m10, 2014-01-25, 0d
-    Time Series          : active   , a12, 1960-01-01, 2023-07-19
-    KNN                  : active   , a13, 1980-01-01, 2023-07-19
-    
-    section Unsupervised Learning
-    Clustering           : active   , a21, 1980-01-12, 2023-07-19
-    PCA                  : active   , a22, 1980-01-01, 2023-07-19
-    
-    section Deep Learning
-    CNN                  : active   , a31, 2010-01-01, 2023-07-19
-    RNN                  : active   , a32, 2010-01-01, 2023-07-19
-    GPT                  : crit     , a33, 2017-01-01, 2023-07-19
-    chatGPT              : milestone, m31, 2022-11-01, 0d
-```
+![](images/AI_robot.jpg){.absolute right=650 top=400 width="300" height="300"}
 
-## Timeline {.scrollable}
+. . . 
+
+![](images/go.webp){.absolute right=100 top=400 width="420" height="300"}
+
+::: notes
+a realistic robot using AI technology looking like a bostondynamics robot on a background which is dark blue with stars and a bit spooky
+:::
+
+## AI subfields {background-image="/images/AI_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+::: {style="font-size:  16px;"}
+*(amongst others)*
+:::
+
+::: notes
+AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
+:::
+
+<!-- [Algoritmeregister](https://algoritmes.overheid.nl/nl) -->
+
+# Machine Learning <br/> *Supervised* {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
+
+##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
+
+##  {background-video="video/moneyball_result.mp4" background-opacity="0.3" background-video-loop=false}
+
+::: r-stack
+![](images/first-box-score.webp){.fragment .absolute top="100" left="200"}
+
+![](images/HC_portret2.png){.fragment .absolute top="100" left="200"}
+
+![](images/adv_score_sheet.png){.fragment .absolute top="100" left="200"} ![](images/statcast01p.png){.fragment .absolute top="100" left="200"}
+:::
+
+## Decision Trees
+
+##  {background-video="video/computer_says_NO_2.mp4" background-opacity="0.3" background-video-loop="false"}
+
+::: r-stack
+![](images/tsa1p.png){.fragment .absolute top="100" left="200"}
+
+![](images/tsa2p.png){.fragment .absolute top="100" left="200"}
+
+![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"}
+
+![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
+:::
+
+<!-- ## Your other me -->
+
+<!-- picture of you and you avatar (taking the boring work or even more) -->
+
+<!-- ## Agenda -->
+
+<!-- -   How did we get here (time line) -->
+
+<!-- -   What is it? Classification -->
+
+<!-- -   what can it do -Demo of GPT models -->
+
+<!-- -   AI Use Cases - now & in the near future -->
+
+<!-- -   The down side and Risks -->
+
+<!-- -   How do these models work -->
+
+## Timeline {.scrollable visibility="hidden"}
 
 1800 - Statistical Learning
 
-:   Linear Regression - still a main machine learning workhorse
+:   Linear Regression 18xx
 
-:   Decision trees & Random Forest
+:   Decision trees & Random Forest 1995
 
 :   k-nearest neighbors classification & regression
 
@@ -201,14 +211,6 @@ gantt
 :   NLP
 
 :   Character recognition
-
-:   
-
-    ------------------------------------------------------------------------
-
-1995 -
-
-:   Decision Trees & Random Forest
 
 :   
 
@@ -254,6 +256,8 @@ gantt
 
 :   chatGPT 5 (...)
 
+## 
+
 ## Classification {visibility="hidden"}
 
 ::: incremental
@@ -273,71 +277,7 @@ gantt
 +--------------------------------------------------------------------------------------------------+
 :::
 
-## AI System - Classification {.smaller visibility="hidden"}
-
-::: incremental
-+--------------------------------------------------------------------------------------------------+
-| ::: {style="background-color: #005ABB"}                                                          |
-| **Narrow AI:** a.k.a. Weak AI                                                                    |
-|                                                                                                  |
-| designed to perform specific tasks,\                                                             |
-| e.g. image recognition systems, and recommendation algorithms.                                   |
-| :::                                                                                              |
-+--------------------------------------------------------------------------------------------------+
-| **Artificial General Intelligence**: a.k.a. Strong AI or AGI,                                    |
-|                                                                                                  |
-| possess human-like intelligence and can perform any intellectual task that a human being can do. |
-+--------------------------------------------------------------------------------------------------+
-| **Super intelligent AI:**                                                                        |
-|                                                                                                  |
-| surpass human intelligence in virtually every aspect, far beyond human capacity.                 |
-+--------------------------------------------------------------------------------------------------+
-:::
-
-## AI Subsets {.smaller visibility="hidden"}
-
-+---------------------------------------------------------------+
-| <div>                                                         |
-|                                                               |
-| ::: incremental                                               |
-| -   Speech Recognition                                        |
-| -   Computer Vision                                           |
-| -   Robotics                                                  |
-| -   Recommender Systems                                       |
-| -   Expert Systems                                            |
-| -   Knowledge Representation and Reasoning                    |
-| -   Symbolic AI                                               |
-| -   Automated Planning and Scheduling                         |
-| -   [**Machine Learning**]{style="background-color: #005ABB"} |
-| :::                                                           |
-|                                                               |
-| </div>                                                        |
-+---------------------------------------------------------------+
-
 ##  {.smaller visibility="hidden"}
-
-+------------------------------------------------------------------------------------------+-----------------------------------------------+
-| ### Machine Learning                                                                     | ### Techniques                                |
-+==========================================================================================+===============================================+
-| **Supervised Learning**                                                                  | \                                             |
-|                                                                                          |                                               |
-| AI models trained with [[known]{.underline}]{style="background-color: #005ABB"} output   | -   Linear Regression                         |
-|                                                                                          |                                               |
-|                                                                                          | -   Decision Trees / Random Forests           |
-+------------------------------------------------------------------------------------------+-----------------------------------------------+
-| **Unsupervised Learning:**                                                               | \                                             |
-|                                                                                          |                                               |
-| AI models trained with [[unknown]{.underline}]{style="background-color: #005ABB"} output | -   K-means Clustering                        |
-|                                                                                          |                                               |
-|                                                                                          | -   Association Rule Learning                 |
-+------------------------------------------------------------------------------------------+-----------------------------------------------+
-| -   Deep Learning                                                                        | -   Generative Pre-trained Transformer Models |
-| -   Reinforcement Learning                                                               |                                               |
-| -   Generative Models                                                                    |     e.g. chatGPT, BARD, ERNIE, ..             |
-| -   Natural Language Processing                                                          |                                               |
-+------------------------------------------------------------------------------------------+-----------------------------------------------+
-
-: {tbl-colwidths="\[55,45\]"}
 
 ::: notes
 1.  **Supervised Learning**: This technique involves training AI models using labeled data, where the model learns patterns and relationships to make predictions or classify new, unseen data.
@@ -352,28 +292,6 @@ gantt
 
 6.  Natural Language Processing (NLP): NLP techniques enable computers to understand, interpret, and generate human language. It involves tasks like speech recognition, sentiment analysis, machine translation, and text generation.
 :::
-
-##  {visibility="hidden"}
-
-+------------------------------------------------------------------------------------------------------+--------------------+
-| **Supervised Learning**                                                                              | -   Prediction     |
-|                                                                                                      |                    |
-| an algorithm is trained on an outcome which is known                                                 | -   Classification |
-+------------------------------------------------------------------------------------------------------+--------------------+
-| **Un-Supervised Learning**                                                                           | -   Classification |
-|                                                                                                      |                    |
-| the outcome is not known                                                                             | -   ...            |
-+------------------------------------------------------------------------------------------------------+--------------------+
-| **Reinforcement Learning**                                                                           | -   Optimization   |
-|                                                                                                      |                    |
-| a reward system is used to make decisions and take actions. The objective is to maximize its rewards | -                  |
-+------------------------------------------------------------------------------------------------------+--------------------+
-| -   Natural Language Processing (NLP)                                                                |                    |
-|                                                                                                      |                    |
-| -   Computer Vision                                                                                  |                    |
-|                                                                                                      |                    |
-| -   Generative Models                                                                                |                    |
-+------------------------------------------------------------------------------------------------------+--------------------+
 
 # Video's
 
@@ -419,9 +337,15 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [Hide and Seek](https://youtu.be/kopoLzvh5jY)
 
-# Test {visibility="uncounted"}
+## Links
 
-##  {background-video="intro-cern.mp4" visibility="uncounted"}
+- [SABR](https://sabr.org/sabermetrics/what-to-research)
+
+- [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
+
+-[]()
+
+# Test {visibility="uncounted"}
 
 ##  {background-video="https://videos.example.com/intro-cern.mp4" visibility="uncounted"}
 
@@ -429,8 +353,8 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 ##  {background-video="https://vimeo.com/548291297" visibility="uncounted"}
 
-## {background-video="https://videos.example.com/intro-cern.mp4"}
+##  {background-video="https://videos.example.com/intro-cern.mp4"}
 
-## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
+##  {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
 
-## {background-video="https://vimeo.com/548291297"}
+##  {background-video="https://vimeo.com/548291297"}
