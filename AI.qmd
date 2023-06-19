@@ -337,6 +337,14 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [Hide and Seek](https://youtu.be/kopoLzvh5jY)
 
+## Links
+
+- [SABR](https://sabr.org/sabermetrics/what-to-research)
+
+- [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
+
+-[]()
+
 # Test {visibility="uncounted"}
 
 ##  {background-video="https://videos.example.com/intro-cern.mp4" visibility="uncounted"}
