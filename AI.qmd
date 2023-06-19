@@ -3,7 +3,7 @@ title   : "AI"
 date    : today
 date-format: long
 title-slide-attributes:
-    data-background-image: /images/AI.jpg
+    data-background-image: /images/ai.jpg
     data-background-size: cover
     data-background-opacity: "0.8"
 author: 
@@ -52,7 +52,7 @@ COL_FACTR <- "#9CEB91"
 COL___RED <- "#ff7f7f"
 ```
 
-##  {background-image="/images/JW_01.png" background-opacity="0.2" background-size="cover" background-color="#151C37"}
+##  {background-image="/images/jw_01.png" background-opacity="0.2" background-size="cover" background-color="#151C37"}
 
 . . .
 
@@ -90,7 +90,7 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 
 *- Mark Zuckerberg, CEO Meta*
 
-## What is AI? {background-video="video/AI_01.mp4" background-opacity="0.2" background-video-loop="true"}
+## What is AI? {background-video="video/ai_01.mp4" background-opacity="0.2" background-video-loop="true"}
 
 . . .
 
@@ -101,28 +101,28 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 <br/><br/>
 
 ::: {.incremental style="font-size:  60px;"}
-+-------------------+--------------------+-----------------------+
-| 🎓 **Learn**      | 🤖 **Act**         |🧠 **Think**           |
-+===================+====================+=======================+
-| -   Supervised    |                    |                       |
-| -   Unsupervised  |                    |                       |
-| -   Reinforcement |                    |                       |
-+-------------------+--------------------+-----------------------+
++-------------------+-------------------+----------------------+
+| 🎓 **Learn**      | 🤖 **Act**        | 🧠 **Think**         |
++===================+===================+======================+
+| -   Supervised    |                   |                      |
+| -   Unsupervised  |                   |                      |
+| -   Reinforcement |                   |                      |
++-------------------+-------------------+----------------------+
 :::
 
-. . . 
+. . .
 
-![](images/AI_robot.jpg){.absolute right=650 top=400 width="300" height="300"}
+![](images/ai_robot.jpg){.absolute right="650" top="400" width="300" height="300"}
 
-. . . 
+. . .
 
-![](images/go.webp){.absolute right=100 top=400 width="420" height="300"}
+![](images/go.webp){.absolute right="100" top="400" width="420" height="300"}
 
 ::: notes
 a realistic robot using AI technology looking like a bostondynamics robot on a background which is dark blue with stars and a bit spooky
 :::
 
-## AI subfields {background-image="/images/AI_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ::: {style="font-size:  16px;"}
 *(amongst others)*
@@ -138,7 +138,7 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 ##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
 
-##  {background-video="video/moneyball_result.mp4" background-opacity="0.3" background-video-loop=false}
+##  {background-video="video/moneyball_result.mp4" background-opacity="0.3"}
 
 ::: r-stack
 ![](images/first-box-score.webp){.fragment .absolute top="100" left="200"}
@@ -148,19 +148,66 @@ AI has been around for decades, but recent advancements in Generative AI applica
 ![](images/adv_score_sheet.png){.fragment .absolute top="100" left="200"} ![](images/statcast01p.png){.fragment .absolute top="100" left="200"}
 :::
 
-## Decision Trees
+## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.3"}
 
-##  {background-video="video/computer_says_NO_2.mp4" background-opacity="0.3" background-video-loop="false"}
+Fun run, wonder if you fancy taking part?
+
+<br/>
+
+. . .  
 
 ::: r-stack
+![](images/dt_01.png){.fragment .absolute top="100" left="200"}
+
+![](images/dt_02.png){.fragment .absolute top="100" left="200"}
+
+![](images/dt_03.png){.fragment .absolute top="100" left="200"}
+
+![](images/dt_04.png){.fragment .absolute top="100" left="200"}
+:::
+
+
+## Modeling Decision trees
+
+Use case: Prediction (classification or regression)
+
+::: r-stack
+![](images/dt_u1.png){.fragment .absolute top="50" left="200"}
+
+![](images/dt_u2.png){.fragment .absolute top="50" left="200"}
+
+![](images/dt_u3.png){.fragment .absolute top="50" left="200"}
+
+![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
+:::
+
+## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.3"}
+
+::: r-stack
+![](images/dt_u5.png){.fragment .absolute top="100" left="200"}
 ![](images/tsa1p.png){.fragment .absolute top="100" left="200"}
-
 ![](images/tsa2p.png){.fragment .absolute top="100" left="200"}
-
 ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"}
-
 ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
 :::
+
+# Robotics               {background-color="#167FCE" background-image="images/rs.png" background-size="cover"}
+## {background-video="video/robotics.mp4" background-opacity="0.5"}
+
+::: {.incremental}
+- 2013 - Alphabet Inc (Google)
+- 2017 - SoftBank
+- 2021 - Hyundai Motor Group
+
+:::
+
+## {background-video="video/drones.mp4" background-opacity="0.5"}
+
+# Computer Vision        {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
+
+# Neural Networks        {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
+# Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
+# NLP                    {background-color="#52B7FD" background-image="images/nl.png" background-size="cover"}
 
 <!-- ## Your other me -->
 
@@ -339,11 +386,13 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 ## Links
 
-- [SABR](https://sabr.org/sabermetrics/what-to-research)
+-   [SABR](https://sabr.org/sabermetrics/what-to-research)
 
-- [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
+-   [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
 
--[]()
+-   [Faulty reward functions in the wild](https://openai.com/research/faulty-reward-functions)
+
+-   [live AI chatbot](https://chat.kuki.ai/chat)
 
 # Test {visibility="uncounted"}
 
