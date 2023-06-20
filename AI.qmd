@@ -394,6 +394,8 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [live AI chatbot](https://chat.kuki.ai/chat)
 
+- [t-SNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
+
 # Test {visibility="uncounted"}
 
 ##  {background-video="https://videos.example.com/intro-cern.mp4" visibility="uncounted"}
