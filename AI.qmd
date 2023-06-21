@@ -418,7 +418,7 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 - [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
 - [Precision Retail Driven by AI](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=precision-retail)
-- []()
+- [Machine learning and artificial intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
 
 # Test {visibility="uncounted"}
 
