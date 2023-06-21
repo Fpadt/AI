@@ -90,7 +90,7 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 
 *- Mark Zuckerberg, CEO Meta*
 
-## What is AI? {background-video="video/ai_01.mp4" background-opacity="0.2" background-video-loop="true"}
+## What is AI? {background-video="video/bg_01.mp4" background-opacity="0.2" background-video-loop="true"}
 
 . . .
 
@@ -119,8 +119,14 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 ![](images/go.webp){.absolute right="100" top="400" width="420" height="300"}
 
 ::: notes
-a realistic robot using AI technology looking like a bostondynamics robot on a background which is dark blue with stars and a bit spooky
+a realistic robot using AI technology looking like a boston dynamics robot on a background which is dark blue with stars and a bit spooky
 :::
+
+## learning
+
+- developer writes code: if this then do that..
+- more features more code -> too many possibilities
+- objective based, train on examples
 
 ## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
@@ -138,7 +144,7 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 ##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
 
-##  {background-video="video/moneyball_result.mp4" background-opacity="0.3"}
+##  {background-video="video/moneyball_result.mp4" background-opacity="0.8"}
 
 ::: r-stack
 ![](images/first-box-score.webp){.fragment .absolute top="100" left="200"}
@@ -148,7 +154,7 @@ AI has been around for decades, but recent advancements in Generative AI applica
 ![](images/adv_score_sheet.png){.fragment .absolute top="100" left="200"} ![](images/statcast01p.png){.fragment .absolute top="100" left="200"}
 :::
 
-## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.3"}
+## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
 
 Fun run, wonder if you fancy taking part?
 
@@ -181,18 +187,30 @@ Use case: Prediction (classification or regression)
 ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
 :::
 
-## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.3"}
+## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
 
 ::: r-stack
 ![](images/dt_u5.png){.fragment .absolute top="100" left="200"}
+![](images/tsa0p.png){.fragment .absolute top="100" left="200"}
 ![](images/tsa1p.png){.fragment .absolute top="100" left="200"}
+
 ![](images/tsa2p.png){.fragment .absolute top="100" left="200"}
 ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"}
 ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
 :::
 
+## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
+
+# Generative AI <br/i> *Transformer models 2017*]
+![](images/google_dev.gif)
+## LLM
+## Image
+## Video
+## Gemini
+Multi-modal model
+
 # Robotics               {background-color="#167FCE" background-image="images/rs.png" background-size="cover"}
-## {background-video="video/robotics.mp4" background-opacity="0.5"}
+## {background-video="video/robotics.mp4" background-opacity="0.8"}
 
 ::: {.incremental}
 - 2013 - Alphabet Inc (Google)
@@ -201,7 +219,7 @@ Use case: Prediction (classification or regression)
 
 :::
 
-## {background-video="video/drones.mp4" background-opacity="0.5"}
+## {background-video="video/drones.mp4" background-opacity="0.8"}
 
 # Computer Vision        {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
 
@@ -395,6 +413,12 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 -   [live AI chatbot](https://chat.kuki.ai/chat)
 
 - [t-SNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
+
+- [synthesia](https://www.synthesia.io/)
+
+- [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
+- [Precision Retail Driven by AI](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=precision-retail)
+- []()
 
 # Test {visibility="uncounted"}
 
