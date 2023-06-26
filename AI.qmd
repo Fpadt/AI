@@ -122,6 +122,47 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 a realistic robot using AI technology looking like a boston dynamics robot on a background which is dark blue with stars and a bit spooky
 :::
 
+## {background-image="/images/tl-19.png" background-opacity="1" background-size="cover"} 
+
+## {background-image="/images/tl-18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+![](images/goodev.gif){.absolute top=400 right=400}
+
+## {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ## learning
 
 - developer writes code: if this then do that..
@@ -244,84 +285,6 @@ Multi-modal model
 <!-- -   The down side and Risks -->
 
 <!-- -   How do these models work -->
-
-## Timeline {.scrollable visibility="hidden"}
-
-1800 - Statistical Learning
-
-:   Linear Regression 18xx
-
-:   Decision trees & Random Forest 1995
-
-:   k-nearest neighbors classification & regression
-
-:   
-
-    ------------------------------------------------------------------------
-
-1956 - term "artificial intelligence" was coined
-
-:   Time series - Exponential Smoothing \[Holz/Winter\]
-
-:   Bayesian networks - Monty Hall "Let's Make a Deal"
-
-:   Clustering
-
-:   
-
-    ------------------------------------------------------------------------
-
-1980 - Neural Networks
-
-:   NLP
-
-:   Character recognition
-
-:   
-
-    ------------------------------------------------------------------------
-
-2010 - Deep Learning
-
-:   CNN - image recognition
-
-:   RNN - sequences, speech, text, ...
-
-:   
-
-    ------------------------------------------------------------------------
-
-2017 - Generative Pre-trained Transformers
-
-:   Large Language Models (LLM)
-
-:   diffusion
-
-:   
-
-    ------------------------------------------------------------------------
-
-2022
-
-:   chatGPT 3 (Nov)
-
-:   
-
-    ------------------------------------------------------------------------
-
-2023
-
-:   chatGPT 4 (Feb)/ BARD/ GEMENI / ERNIE
-
-:   
-
-    ------------------------------------------------------------------------
-
-2024
-
-:   chatGPT 5 (...)
-
-## 
 
 ## Classification {visibility="hidden"}
 
