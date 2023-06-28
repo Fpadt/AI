@@ -18,6 +18,8 @@ format:
       buttons: false
       theme: whiteboard
     preview-links: auto
+    link-external-newwindow: true
+    link-external-icon: true
     logo: /images/logoGV_white.png
     theme: [dark]
     width: 1600
@@ -101,13 +103,13 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 <br/><br/>
 
 ::: {.incremental style="font-size:  60px;"}
-+-------------------+-------------------+----------------------+
-| 🎓 **Learn**      | 🤖 **Act**        | 🧠 **Think**         |
-+===================+===================+======================+
-| -   Supervised    |                   |                      |
-| -   Unsupervised  |                   |                      |
-| -   Reinforcement |                   |                      |
-+-------------------+-------------------+----------------------+
++-------------------+------------------+---------------------+
+| 🎓 **Learn**      | 🤖 **Act**       | 🧠 **Think**        |
++===================+==================+=====================+
+| -   Supervised    |                  |                     |
+| -   Unsupervised  |                  |                     |
+| -   Reinforcement |                  |                     |
++-------------------+------------------+---------------------+
 :::
 
 . . .
@@ -122,62 +124,85 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 a realistic robot using AI technology looking like a boston dynamics robot on a background which is dark blue with stars and a bit spooky
 :::
 
-## {background-image="/images/tl-19.png" background-opacity="1" background-size="cover"} 
+##  {background-image="/images/tl-19.png" background-opacity="1" background-size="cover"}
 
-## {background-image="/images/tl-18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-![](images/goodev.gif){.absolute top=400 right=400}
+::: {.fragment fade-in-then-out} ![](images/attention_is_all_you_need.png){.absolute top="150" right="50"} :::
 
-## {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-## learning
+##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-- developer writes code: if this then do that..
-- more features more code -> too many possibilities
-- objective based, train on examples
+::: {.fragment fade-in-then-out} ![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} :::
 
-## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+<!-- <video autoplay="false" > -->
 
-::: {style="font-size:  16px;"}
-*(amongst others)*
-:::
+<!--   <source src="video/googdev.mp4" type="video/mp4"> -->
+
+<!-- </video> -->
+
+<!-- ## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+
+<!-- <div class="cc-video-wrapper"> -->
+
+<!-- <iframe src="video/googdev.mp4" type="video/mp4" top="400" width="500" height="322" frameborder="0" autoplay="true"> -->
+
+<!-- </iframe> -->
+
+<!-- </div> -->
+
+##  {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ::: notes
 AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
 :::
+
+## learning
+
+-   developer writes code: if this then do that..
+-   more features more code -\> too many possibilities
+-   objective based, train on examples
+
+<!-- ## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+
+<!-- ::: {style="font-size:  16px;"} -->
+
+<!-- *(amongst others)* -->
+
+<!-- ::: -->
 
 <!-- [Algoritmeregister](https://algoritmes.overheid.nl/nl) -->
 
@@ -188,11 +213,7 @@ AI has been around for decades, but recent advancements in Generative AI applica
 ##  {background-video="video/moneyball_result.mp4" background-opacity="0.8"}
 
 ::: r-stack
-![](images/first-box-score.webp){.fragment .absolute top="100" left="200"}
-
-![](images/HC_portret2.png){.fragment .absolute top="100" left="200"}
-
-![](images/adv_score_sheet.png){.fragment .absolute top="100" left="200"} ![](images/statcast01p.png){.fragment .absolute top="100" left="200"}
+![](images/first-box-score.webp){.fragment .absolute top="100" left="200"} ![](images/HC_portret2.png) {.fragment .absolute top="100" left="200"} ![](images/adv_score_sheet.png) {.fragment .absolute top="100" left="200"} ![](images/statcast01p.png) {.fragment .absolute top="100" left="200"}
 :::
 
 ## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
@@ -201,90 +222,49 @@ Fun run, wonder if you fancy taking part?
 
 <br/>
 
-. . .  
+. . .
 
 ::: r-stack
-![](images/dt_01.png){.fragment .absolute top="100" left="200"}
-
-![](images/dt_02.png){.fragment .absolute top="100" left="200"}
-
-![](images/dt_03.png){.fragment .absolute top="100" left="200"}
-
-![](images/dt_04.png){.fragment .absolute top="100" left="200"}
+![](images/dt_01.png){.fragment .absolute top="100" left="200"} ![](images/dt_02.png){.fragment .absolute top="100" left="200"} ![](images/dt_03.png){.fragment .absolute top="100" left="200"} ![](images/dt_04.png){.fragment .absolute top="100" left="200"}
 :::
-
 
 ## Modeling Decision trees
 
 Use case: Prediction (classification or regression)
 
 ::: r-stack
-![](images/dt_u1.png){.fragment .absolute top="50" left="200"}
-
-![](images/dt_u2.png){.fragment .absolute top="50" left="200"}
-
-![](images/dt_u3.png){.fragment .absolute top="50" left="200"}
-
-![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
+![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
 :::
 
 ## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
 
 ::: r-stack
-![](images/dt_u5.png){.fragment .absolute top="100" left="200"}
-![](images/tsa0p.png){.fragment .absolute top="100" left="200"}
-![](images/tsa1p.png){.fragment .absolute top="100" left="200"}
-
-![](images/tsa2p.png){.fragment .absolute top="100" left="200"}
-![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"}
-![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
+![](images/dt_u5.png){.fragment .absolute top="100" left="200"} ![](images/tsa0p.png){.fragment .absolute top="100" left="200"} ![](images/tsa1p.png){.fragment .absolute top="100" left="200"} ![](images/tsa2p.png){.fragment .absolute top="100" left="200"} ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"} ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
 :::
 
 ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
 
-# Generative AI <br/i> *Transformer models 2017*]
-![](images/google_dev.gif)
+# Generative AI <br/i> *Transformer models 2017*\]
+
 ## LLM
-## Image
-## Video
-## Gemini
-Multi-modal model
 
-# Robotics               {background-color="#167FCE" background-image="images/rs.png" background-size="cover"}
-## {background-video="video/robotics.mp4" background-opacity="0.8"}
+##  {background-color="black"}
 
-::: {.incremental}
-- 2013 - Alphabet Inc (Google)
-- 2017 - SoftBank
-- 2021 - Hyundai Motor Group
+[Image creator powered by DALL-E](https://www.bing.com/images/create?form=IRPGEN){preview-link="false"}
 
+
+
+``` markdown
+sunglasses flying as butterflies around the schiphol airport tower  in spring time with a bright blue sky
+```
+
+::: r-stack
+![](images/schip_08.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_09.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_01.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_02.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_03.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_04.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_05.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_06.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_07.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_08.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_09.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_10.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_11.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_12.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_13.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_14.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_15.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_16.jpg){.fragment .absolute top="75" left="100"} ![](images/schip_17.jpg){.fragment .absolute top="75" left="100"}
 :::
 
-## {background-video="video/drones.mp4" background-opacity="0.8"}
+## Video
 
-# Computer Vision        {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
-
-# Neural Networks        {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
-# Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
-# NLP                    {background-color="#52B7FD" background-image="images/nl.png" background-size="cover"}
-
-<!-- ## Your other me -->
-
-<!-- picture of you and you avatar (taking the boring work or even more) -->
-
-<!-- ## Agenda -->
-
-<!-- -   How did we get here (time line) -->
-
-<!-- -   What is it? Classification -->
-
-<!-- -   what can it do -Demo of GPT models -->
-
-<!-- -   AI Use Cases - now & in the near future -->
-
-<!-- -   The down side and Risks -->
-
-<!-- -   How do these models work -->
+# Future
 
 ## Classification {visibility="hidden"}
 
@@ -305,21 +285,67 @@ Multi-modal model
 +--------------------------------------------------------------------------------------------------+
 :::
 
-##  {.smaller visibility="hidden"}
+<!-- ## Gemini -->
 
-::: notes
-1.  **Supervised Learning**: This technique involves training AI models using labeled data, where the model learns patterns and relationships to make predictions or classify new, unseen data.
+<!-- Multi-modal model -->
 
-2.  **Unsupervised Learning**: Unsupervised learning involves training AI models on unlabeled data, where the model learns patterns and structures without specific guidance, often used for tasks like clustering.
+##  {background-video="video/onebillionhappy.mp4" background-opacity="1"}
 
-3.  **Decision Trees:** Decision trees are graphical models that make decisions or predictions based on a series of rules or conditions. They are often used for classification or regression tasks and provide interpretable and understandable models.
+# Robotics {background-color="#167FCE" background-image="images/rs.png" background-size="cover"}
 
-4.  Deep Learning: Deep learning is a subset of machine learning that focuses on artificial neural networks with multiple layers. It enables the model to automatically learn hierarchical representations of data, leading to powerful pattern recognition capabilities.
+##  {background-video="video/robotics.mp4" background-opacity="0.8"}
 
-5.  Reinforcement Learning: In reinforcement learning, an AI agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or punishments. The agent learns through trial and error to maximize its cumulative rewards.
+### Ownership
 
-6.  Natural Language Processing (NLP): NLP techniques enable computers to understand, interpret, and generate human language. It involves tasks like speech recognition, sentiment analysis, machine translation, and text generation.
-:::
+-   2013 - Alphabet Inc (Google)
+-   2017 - SoftBank
+-   2021 - Hyundai Motor Group
+
+##  {background-video="video/drones.mp4" background-opacity="0.8"}
+
+# Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
+
+# Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
+
+# Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
+
+# NLP {background-color="#52B7FD" background-image="images/nl.png" background-size="cover"}
+
+<!-- ## Your other me -->
+
+<!-- picture of you and you avatar (taking the boring work or even more) -->
+
+<!-- ## Agenda -->
+
+<!-- -   How did we get here (time line) -->
+
+<!-- -   What is it? Classification -->
+
+<!-- -   what can it do -Demo of GPT models -->
+
+<!-- -   AI Use Cases - now & in the near future -->
+
+<!-- -   The down side and Risks -->
+
+<!-- -   How do these models work -->
+
+<!-- ##  {.smaller visibility="hidden"} -->
+
+<!-- ::: notes -->
+
+<!-- 1.  **Supervised Learning**: This technique involves training AI models using labeled data, where the model learns patterns and relationships to make predictions or classify new, unseen data. -->
+
+<!-- 2.  **Unsupervised Learning**: Unsupervised learning involves training AI models on unlabeled data, where the model learns patterns and structures without specific guidance, often used for tasks like clustering. -->
+
+<!-- 3.  **Decision Trees:** Decision trees are graphical models that make decisions or predictions based on a series of rules or conditions. They are often used for classification or regression tasks and provide interpretable and understandable models. -->
+
+<!-- 4.  Deep Learning: Deep learning is a subset of machine learning that focuses on artificial neural networks with multiple layers. It enables the model to automatically learn hierarchical representations of data, leading to powerful pattern recognition capabilities. -->
+
+<!-- 5.  Reinforcement Learning: In reinforcement learning, an AI agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or punishments. The agent learns through trial and error to maximize its cumulative rewards. -->
+
+<!-- 6.  Natural Language Processing (NLP): NLP techniques enable computers to understand, interpret, and generate human language. It involves tasks like speech recognition, sentiment analysis, machine translation, and text generation. -->
+
+<!-- ::: -->
 
 # Video's
 
@@ -375,13 +401,15 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [live AI chatbot](https://chat.kuki.ai/chat)
 
-- [t-SNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
+-   [t-SNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
 
-- [synthesia](https://www.synthesia.io/)
+-   [synthesia](https://www.synthesia.io/)
 
-- [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
-- [Precision Retail Driven by AI](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=precision-retail)
-- [Machine learning and artificial intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
+-   [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
+
+-   [Precision Retail Driven by AI](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=precision-retail)
+
+-   [Machine learning and artificial intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
 
 # Test {visibility="uncounted"}
 
