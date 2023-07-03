@@ -244,6 +244,32 @@ Use case: Prediction (classification or regression)
 
 ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
 
+# Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
+
+## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover" }
+## {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
+## Menace Practice
+
+::: {.fragment .fade-in}
+![](images/menace/game_01.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_02.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_03.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_04.png){.absolute right="100" width="1500"}
+:::
+
+::: footer
+[mscroggs.co.uk: MENACE][MSCROGGS]
+:::
+
 # Generative AI <br/i> *Transformer models 2017*\]
 
 ## LLM
@@ -305,7 +331,8 @@ sunglasses flying as butterflies around the schiphol airport tower  in spring ti
 
 # Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
 
-# Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
+
+
 
 # Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
 
@@ -397,6 +424,8 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 - [The Future of Business: How AI is Transforming the Way We Work][GAI_RETAIL]
 - [Machine learning and Artificial Intelligence][ML_AI]
 - [tSNE][TSNE]
+= [MENACE][MENACE_MED]
+- [mscroggs.co.uk: MENACE][MSCROGGS]
 
 ## Video's 
 
@@ -417,6 +446,9 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 [V_RL]:       https://youtu.be/spfpBrBjntg
 [V_BOAT]:     https://youtu.be/tlOIHko8ySg
 [V_HANDS]:    https://youtu.be/kopoLzvh5jY
+[MENACE_MED]: https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc
+[MSCROGGS]:   https://www.mscroggs.co.uk/menace/
+
 
 # Test {visibility="uncounted"}
 
