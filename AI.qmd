@@ -379,37 +379,44 @@ ggplot(mtcars, aes(hp, mpg, color = am)) +
 
 Statistical modeling forms the foundation of many AI techniques and algorithms. It involves using mathematical and statistical methods to analyze data, identify patterns, and make predictions.
 
+[test][1]
+
 ## AI techniques {visibility="uncounted"}
 
 AI techniques, such as **machine learning** and **deep learning**, utilize statistical modeling approaches to learn from data, extract meaningful insights, and make predictions or decisions. In practice, statistical modeling and AI are often integrated.
 
-## list of video's {visibility="uncounted"}
+## References 
 
--   [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
+- [Society of American Baseball Research][SABR]
+- [Microsoft Bing Image creator powered by DALL-E][DALLE]
+- [Correlation is not Causation][CORRvsCAUS]
+- [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors][REGR_HIST]
+- [Faulty reward functions in the wild][RL_BOAT]
+- [live AI chatbot][AI_CHATBOT]
+- [Synthesia][SYNTHESIA]
+- [The Future of Business: How AI is Transforming the Way We Work][GAI_RETAIL]
+- [Machine learning and Artificial Intelligence][ML_AI]
+- [tSNE][TSNE]
 
--   [Faulty reward functions in the wild](https://youtu.be/tlOIHko8ySg)
+## Video's 
 
--   [Hide and Seek](https://youtu.be/kopoLzvh5jY)
+- [Reinforcement Learning][V_RL]
+- [OpenAI - Faulty reward functions in the wild][V_BOAT]
+- [openAI - Hide and Seek][V_HANDS]
 
-## Links
-
--   [SABR](https://sabr.org/sabermetrics/what-to-research)
-
--   [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
-
--   [Faulty reward functions in the wild](https://openai.com/research/faulty-reward-functions)
-
--   [live AI chatbot](https://chat.kuki.ai/chat)
-
--   [t-SNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
-
--   [synthesia](https://www.synthesia.io/)
-
--   [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
-
--   [Precision Retail Driven by AI](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=precision-retail)
-
--   [Machine learning and artificial intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
+[SABR]:       https://sabr.org/sabermetrics/what-to-research
+[DALLE]:      https://www.bing.com/images/create?form=IRPGEN
+[CORRvsCAUS]: https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53
+[REGR_HIST]:  https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537
+[RL_BOAT]:    https://openai.com/research/faulty-reward-functions
+[AI_CHATBOT]: https://chat.kuki.ai/chat
+[tSNE]:       https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a
+[SYNTHESIA]:  https://www.synthesia.io/
+[GAI_RETAIL]: https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0
+[ML_AI]:      https://cloud.google.com/learn/training/machinelearning-ai
+[V_RL]:       https://youtu.be/spfpBrBjntg
+[V_BOAT]:     https://youtu.be/tlOIHko8ySg
+[V_HANDS]:    https://youtu.be/kopoLzvh5jY
 
 # Test {visibility="uncounted"}
 
