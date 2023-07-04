@@ -103,13 +103,13 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 <br/><br/>
 
 ::: {.incremental style="font-size:  60px;"}
-+-------------------+------------------+---------------------+
-| 🎓 **Learn**      | 🤖 **Act**       | 🧠 **Think**        |
-+===================+==================+=====================+
-| -   Supervised    |                  |                     |
-| -   Unsupervised  |                  |                     |
-| -   Reinforcement |                  |                     |
-+-------------------+------------------+---------------------+
++-------------------+-----------------+--------------------+
+| 🎓 **Learn**      | 🤖 **Act**      | 🧠 **Think**       |
++===================+=================+====================+
+| -   Supervised    |                 |                    |
+| -   Unsupervised  |                 |                    |
+| -   Reinforcement |                 |                    |
++-------------------+-----------------+--------------------+
 :::
 
 . . .
@@ -124,12 +124,60 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 a realistic robot using AI technology looking like a boston dynamics robot on a background which is dark blue with stars and a bit spooky
 :::
 
-## Venn diagram + interpretabiliyt
+# 
 
-> Prediction is very difficult, 
-> especially if it's about the future.
-> 
-> -- Niels Bohr --
+::: r-fit-text
+Prediction is very difficult,\
+especially if it's about the future.
+:::
+
+<br/> *-- Niels Bohr --*
+
+## Glass Box versus Black Box models {background-image="/images/int_ml/glass_vs_blackbox.png" background-opacity="0.5" background-size="cover"}
+
+. . . 
+
+![](images/int_ml/int_flex.png){.absolute top="75" left="0" witdth="1600"}
+
+:::: {.columns}
+
+::: {.column width="27%"}
+:::
+
+::: {.column width="37%"}
+<br/>
+<br/>
+<br/>
+
+::: {.incremental}
+- Decision Trees
+- Linear Regression
+- Logistic Regression
+:::
+:::
+
+::: {.column width="36%"}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+::: {.incremental}
+- Random Forest
+- Neural Network
+- Convolutional Neural Network
+:::
+:::
+
+::::
+
+# AI History
 
 ##  {background-image="/images/tl-19.png" background-opacity="1" background-size="cover"}
 
@@ -209,18 +257,16 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 <!-- *(amongst others)* -->
 
-
-# interpretable 
-picture from LM to DL
-
 # Machine Learning <br/> *Supervised* {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
+
+##  {background-video="video/GALTON.mp4" background-opacity="0.8"}
 
 ##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
 
 ##  {background-video="video/moneyball_result.mp4" background-opacity="0.8"}
 
 ::: r-stack
-![](images/first-box-score.webp){.fragment .absolute top="100" left="200"} ![](images/HC_portret2.png) {.fragment .absolute top="100" left="200"} ![](images/adv_score_sheet.png) {.fragment .absolute top="100" left="200"} ![](images/statcast01p.png) {.fragment .absolute top="100" left="200"}
+![](images/sabr/first-box-score.webp){.fragment .absolute top="100" left="200"} ![](images/sabr/hc_portret2.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/adv_score_sheet.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/statcast01p.png) {.fragment .absolute top="100" left="200"}
 :::
 
 ## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
@@ -251,8 +297,10 @@ Use case: Prediction (classification or regression)
 
 ## Random Forest
 
-## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover" }
-## {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
+## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
+
+##  {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
+
 ## Menace Practice
 
 ::: {.fragment .fade-in}
@@ -272,24 +320,27 @@ Use case: Prediction (classification or regression)
 :::
 
 ::: footer
-[mscroggs.co.uk: MENACE][MSCROGGS]
+[mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
 :::
 
 # Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
 
 ## Brilliant
 
-# AI anno 2023 Generative AI <br> *Transformer models 2017*]
+# AI anno 2023 Generative AI <br> *Transformer models 2017*\]
 
 ## LLM
 
 ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
 
-
 # Robotics {background-video="video/robotics.mp4" background-opacity="0.8"}
+
 # Inventory Management {background-video="video/drones.mp4" background-opacity="0.8"}
+
 # Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
+
 # Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
+
 # NLP {background-color="#52B7FD" background-image="images/nl.png" background-size="cover"}
 
 # AI Future
@@ -298,21 +349,20 @@ Use case: Prediction (classification or regression)
 >
 > -- Peter Drucker --
 
-. . . 
-
-
+. . .
 
 ## Picture from ppt
 
 <!-- ## Gemini -->
+
 <!-- Multi-modal model -->
 
 ##  {background-video="video/onebillionhappy.mp4" background-opacity="1"}
 
-# {background-color="000000"}
+#  {background-color="000000"}
 
 > The future depends on what we do in the present
-> 
+>
 > -- Mahatma Gandhi --
 
 ## Classification {visibility="hidden"}
@@ -334,16 +384,24 @@ Use case: Prediction (classification or regression)
 +--------------------------------------------------------------------------------------------------+
 :::
 
-
 <!-- ## Your other me -->
+
 <!-- picture of you and you avatar (taking the boring work or even more) -->
+
 <!-- ## Agenda -->
+
 <!-- -   How did we get here (time line) -->
+
 <!-- -   What is it? Classification -->
+
 <!-- -   what can it do -Demo of GPT models -->
+
 <!-- -   AI Use Cases - now & in the near future -->
+
 <!-- -   The down side and Risks -->
+
 <!-- -   How do these models work -->
+
 <!-- ##  {.smaller visibility="hidden"} -->
 
 <!-- ::: notes -->
@@ -368,34 +426,13 @@ Use case: Prediction (classification or regression)
 
 [Image creator powered by DALL-E](https://www.bing.com/images/create?form=IRPGEN){preview-link="false"}
 
-
-
 ``` markdown
 sunglasses flying as butterflies around the schiphol airport tower  in spring time with a bright blue sky
 ```
 
 ::: r-stack
-![](images/gen_img/schip_08.jpg){.fragment .absolute top="75" left="100"}
-![](images/gen_img/schip_09.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_01.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_02.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_03.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_04.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_05.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_06.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_07.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_08.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_09.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_10.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_11.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_12.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_13.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_14.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_15.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_16.jpg){.fragment .absolute top="75" left="100"} 
-![](images/gen_img/schip_17.jpg){.fragment .absolute top="75" left="100"}
+![](images/gen_img/schip_08.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_09.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_01.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_02.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_03.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_04.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_05.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_06.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_07.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_08.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_09.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_10.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_11.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_12.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_13.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_14.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_15.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_16.jpg){.fragment .absolute top="75" left="100"} ![](images/gen_img/schip_17.jpg){.fragment .absolute top="75" left="100"}
 :::
-
 
 # Video's
 
@@ -433,54 +470,51 @@ Statistical modeling forms the foundation of many AI techniques and algorithms. 
 
 AI techniques, such as **machine learning** and **deep learning**, utilize statistical modeling approaches to learn from data, extract meaningful insights, and make predictions or decisions. In practice, statistical modeling and AI are often integrated.
 
-## References 
+## References
 
-- [Society of American Baseball Research][SABR]
-- [Microsoft Bing Image creator powered by DALL-E][DALLE]
-- [Correlation is not Causation][CORRvsCAUS]
-- [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors][REGR_HIST]
-- [Faulty reward functions in the wild][RL_BOAT]
-- [live AI chatbot][AI_CHATBOT]
-- [Synthesia][SYNTHESIA]
-- [The Future of Business: How AI is Transforming the Way We Work][GAI_RETAIL]
-- [Machine learning and Artificial Intelligence][ML_AI]
-- [tSNE][TSNE]
-= [MENACE][MENACE_MED]
-- [mscroggs.co.uk: MENACE][MSCROGGS]
-- [DALL·E 2 Prompt Engineering Guide][DALLE_PEG]
-- [dall.ery gall.ery][DALLE_GALL]
-- [Dive into Deep Learning][DIVE_DL]
-- [Interpretable Machine Learning][INTERP_ML]
-- [Algoritmeregister][ALG_REG_NL]
+-   [Galton, Pearson, and the Peas: A Brief History of Linear Regression for Statistics Instructors](https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537)
 
-## Video's 
+-   [Society of American Baseball Research](https://sabr.org/sabermetrics/what-to-research)
 
-- [Reinforcement Learning][V_RL]
-- [OpenAI - Faulty reward functions in the wild][V_BOAT]
-- [openAI - Hide and Seek][V_HANDS]
+-   [Correlation is not Causation](https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53)
 
-[SABR]:       https://sabr.org/sabermetrics/what-to-research
-[DALLE]:      https://www.bing.com/images/create?form=IRPGEN
-[CORRvsCAUS]: https://towardsdatascience.com/correlation-is-not-causation-ae05d03c1f53
-[REGR_HIST]:  https://www.tandfonline.com/doi/full/10.1080/10691898.2001.11910537
-[RL_BOAT]:    https://openai.com/research/faulty-reward-functions
-[AI_CHATBOT]: https://chat.kuki.ai/chat
-[tSNE]:       https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a
-[SYNTHESIA]:  https://www.synthesia.io/
-[GAI_RETAIL]: https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0
-[ML_AI]:      https://cloud.google.com/learn/training/machinelearning-ai
-[DALLE_PEG]:  https://docs.google.com/document/d/11WlzjBT0xRpQhP9tFMtxzd0q6ANIdHPUBkMV-YB043U/edit?pli=1
-[DALLE_GALL]: https://dallery.gallery/prompt-resources-tools-ai-art/
-[DIVE_DL]:    https://www.d2l.ai/
-[INTERP_ML]:  https://christophm.github.io/interpretable-ml-book/
-[ALG_REG_NL]: https://algoritmes.overheid.nl/nl
+-   [Faulty reward functions in the wild](https://openai.com/research/faulty-reward-functions)
 
-[V_RL]:       https://youtu.be/spfpBrBjntg
-[V_BOAT]:     https://youtu.be/tlOIHko8ySg
-[V_HANDS]:    https://youtu.be/kopoLzvh5jY
-[MENACE_MED]: https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc
-[MSCROGGS]:   https://www.mscroggs.co.uk/menace/
+-   [live AI chatbot](https://chat.kuki.ai/chat)
 
+-   [Synthesia](https://www.synthesia.io/)
+
+-   [The Future of Business: How AI is Transforming the Way We Work](https://adsonair.withgoogle.com/events/ai-advantage/watch?talk=future-of-business0)
+
+-   [Machine learning and Artificial Intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
+
+-   [tSNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a) = [MENACE](https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc)
+
+-   [mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
+
+-   [Dive into Deep Learning](https://www.d2l.ai/)
+
+-   [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+
+-   [Algoritmeregister](https://algoritmes.overheid.nl/nl)
+
+## Video's
+
+-   [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
+-   [OpenAI - Faulty reward functions in the wild](https://youtu.be/tlOIHko8ySg)
+-   [openAI - Hide and Seek](https://youtu.be/kopoLzvh5jY)
+
+# Prompts
+
+## BING Image Creator
+
+-   [Microsoft Bing Image creator powered by DALL-E](https://www.bing.com/images/create?form=IRPGEN)
+
+-   [DALL·E 2 Prompt Engineering Guide](https://docs.google.com/document/d/11WlzjBT0xRpQhP9tFMtxzd0q6ANIdHPUBkMV-YB043U/edit?pli=1)
+
+-   [dall.ery gall.ery](https://dallery.gallery/prompt-resources-tools-ai-art/)
+
+-   A male scientist wearing glasses, in a field of vibrant purple and pink sweet pea flowers, using a ruler to measure the height of the plants in the soft light of a gentle spring morning. The tranquil scene is imbued with a sense of natural beauty and wonder, as the sun rises above the horizon and casts a warm glow over the landscape, captured in stunning 4K resolution.
 
 # Test {visibility="uncounted"}
 
