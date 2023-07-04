@@ -94,31 +94,51 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 
 ## What is AI? {background-video="video/bg_01.mp4" background-opacity="0.2" background-video-loop="true"}
 
-. . .
+. . . 
 
-*simulating* [human-like]{style="color: #005ABB"} intelligence, [**without**]{style="color: #EF8200"} explicit programming
+::: r-fit-text
+<br/>
 
-. . .
+*simulating* [human-like]{style="color: #005ABB"} intelligence, 
 
-<br/><br/>
+[**without**]{style="color: #EF8200"} explicit programming
 
-::: {.incremental style="font-size:  60px;"}
-+-------------------+-----------------+--------------------+
-| 🎓 **Learn**      | 🤖 **Act**      | 🧠 **Think**       |
-+===================+=================+====================+
-| -   Supervised    |                 |                    |
-| -   Unsupervised  |                 |                    |
-| -   Reinforcement |                 |                    |
-+-------------------+-----------------+--------------------+
+<br/>
+
+Think, Act, Learn
 :::
 
-. . .
+##  {background-image="/images/def/df_1.png" background-opacity="1" background-size="cover" }
 
-![](images/ai_robot.jpg){.absolute right="650" top="400" width="300" height="300"}
+##  {background-image="/images/def/df_2.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-. . .
+##  {background-image="/images/def/df_3.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-![](images/go.webp){.absolute right="100" top="400" width="420" height="300"}
+##  {background-image="/images/def/df_4.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/def/df_5.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+<!-- . . . -->
+
+<!-- <br/><br/> -->
+
+<!-- ::: {.incremental style="font-size:  60px;"} -->
+<!-- +-------------------+-----------------+--------------------+ -->
+<!-- | 🎓 **Learn**      | 🤖 **Act**      | 🧠 **Think**       | -->
+<!-- +===================+=================+====================+ -->
+<!-- | -   Supervised    |                 |                    | -->
+<!-- | -   Unsupervised  |                 |                    | -->
+<!-- | -   Reinforcement |                 |                    | -->
+<!-- +-------------------+-----------------+--------------------+ -->
+<!-- ::: -->
+
+<!-- . . . -->
+
+<!-- ![](images/ai_robot.jpg){.absolute right="650" top="400" width="300" height="300"} -->
+
+<!-- . . . -->
+
+<!-- ![](images/go.webp){.absolute right="100" top="400" width="420" height="300"} -->
 
 ::: notes
 learning
@@ -128,15 +148,127 @@ learning
 -   objective based, train on examples
 :::
 
-# 
+<!-- #  -->
 
-::: r-fit-text
-Prediction is very difficult,\
-especially if it's about the future.
+<!-- ::: r-fit-text -->
+<!-- Prediction is very difficult,\ -->
+<!-- especially if it's about the future. -->
+<!-- ::: -->
+
+<!-- <br/>  -->
+<!-- *-- Niels Bohr --* -->
+
+<!-- # AI History -->
+
+
+##  {background-image="/images/time_line/tl00.png" background-opacity="1" background-size="cover"}
+##  {background-image="/images/time_line/tl01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+# Machine Learning <br/> *Supervised* {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
+
+##  {background-video="video/galton.mp4" background-opacity="0.8"}
+
+:::: {.columns}
+
+::: {.column width="80"}
 :::
 
-<br/> 
-*-- Niels Bohr --*
+::: {.column width="5"}
+  
+:::
+
+::: {.column }
+
+::: {.incremental}
+
+- 1880
+- Galton, 
+- predict 
+
+:::
+:::
+
+::::
+
+
+##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
+
+##  {background-video="video/moneyball_result.mp4" background-opacity="0.8"}
+
+::: r-stack
+![](images/sabr/first-box-score.webp){.fragment .absolute top="100" left="200"} ![](images/sabr/hc_portret2.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/adv_score_sheet.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/statcast01p.png) {.fragment .absolute top="100" left="200"}
+:::
+
+##  {background-image="/images/time_line/tl07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
+
+::: {.smaller}
+Reinforcement Learning
+:::
+
+##  {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
+
+## Menace Practice
+
+::: {.fragment .fade-in}
+![](images/menace/game_01.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_02.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_03.png){.absolute right="100" width="1500"}
+:::
+
+::: {.fragment .fade-in}
+![](images/menace/game_04.png){.absolute right="100" width="1500"}
+:::
+
+::: footer
+[mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
+:::
+
+##  {background-image="/images/time_line/tl09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
+
+Fun run, wonder if you fancy taking part?
+
+<br/>
+
+. . .
+
+::: r-stack
+![](images/dt_01.png){.fragment .absolute top="100" left="200"} ![](images/dt_02.png){.fragment .absolute top="100" left="200"} ![](images/dt_03.png){.fragment .absolute top="100" left="200"} ![](images/dt_04.png){.fragment .absolute top="100" left="200"}
+:::
+
+## Modeling Decision trees
+
+Use case: Prediction (classification or regression)
+
+::: r-stack
+![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
+:::
+
+## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
+
+::: r-stack
+![](images/dt_u5.png){.fragment .absolute top="100" left="200"} ![](images/tsa0p.png){.fragment .absolute top="100" left="200"} ![](images/tsa1p.png){.fragment .absolute top="100" left="200"} ![](images/tsa2p.png){.fragment .absolute top="100" left="200"} ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"} ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
+:::
+
+## Random Forest
 
 ## Glass Box versus Black Box models {background-image="/images/int_ml/glass_vs_blackbox.png" background-opacity="0.5" background-size="cover"}
 
@@ -175,80 +307,108 @@ especially if it's about the future.
 
 ::: {.incremental}
 - Random Forest
-- Neural Network
-- Convolutional Neural Network
+- Neural Networks
+- Transformers
 :::
 :::
 
 ::::
 
-# AI History
+##  {background-image="/images/time_line/tl13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-##  {background-image="/images/tl-19.png" background-opacity="1" background-size="cover"}
+# Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
 
-##  {background-image="/images/tl-18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+## Brilliant
 
-##  {background-image="/images/tl-17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+- single layer Neural network (cat)
+- multile/deep learning (character recognition)
 
-##  {background-image="/images/tl-16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl19.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-##  {background-image="/images/tl-15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+::: {.fragment fade-in-then-out}
 
-##  {background-image="/images/tl-14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](images/attention_is_all_you_need.png){.absolute top="150" right="50"}
 
-##  {background-image="/images/tl-13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+:::
 
-##  {background-image="/images/tl-12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-##  {background-image="/images/tl-11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+## 
 
-##  {background-image="/images/tl-10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](images/gpt/transformers-1.gif)
 
-##  {background-image="/images/tl-09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](/images/gpt/transformers-2.png)
 
-##  {background-image="/images/tl-08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](images/gpt/transformers-3.gif)
 
-##  {background-image="/images/tl-07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](images/gpt/gpt_training.jpg)
+. . .
 
-##  {background-image="/images/tl-06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/tl20.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-##  {background-image="/images/tl-05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+::: {.fragment fade-in-then-out} 
 
-##  {background-image="/images/tl-04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} 
 
-##  {background-image="/images/tl-03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-##  {background-image="/images/tl-02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-::: {.fragment fade-in-then-out} ![](images/attention_is_all_you_need.png){.absolute top="150" right="50"} :::
-
-##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-::: {.fragment fade-in-then-out} ![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} :::
-
-<!-- <video autoplay="false" > -->
-
-<!--   <source src="video/googdev.mp4" type="video/mp4"> -->
-
-<!-- </video> -->
-
-<!-- ## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
-
-<!-- <div class="cc-video-wrapper"> -->
-
-<!-- <iframe src="video/googdev.mp4" type="video/mp4" top="400" width="500" height="322" frameborder="0" autoplay="true"> -->
-
-<!-- </iframe> -->
-
-<!-- </div> -->
-
-##  {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+:::
 
 ::: notes
 AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
 :::
+
+##  {background-image="/images/time_line/tl20.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+
+<!-- # new -->
+
+<!-- ##  {background-image="/images/tl-18.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-17.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-16.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-15.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-14.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-13.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-12.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-11.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-10.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-09.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-08.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-07.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-06.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-05.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-04.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-03.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-02.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+
+<!-- ::: {.fragment fade-in-then-out} ![](images/attention_is_all_you_need.png){.absolute top="150" right="50"} ::: -->
+
+<!-- ##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+
+<!-- ::: {.fragment fade-in-then-out} ![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} ::: -->
+
+<!-- <video autoplay="false" > --> 
+
+<!--   <source src="video/googdev.mp4" type="video/mp4"> --> 
+
+<!-- </video> --> 
+
+<!-- ## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} --> 
+
+<!-- <div class="cc-video-wrapper"> --> 
+
+<!-- <iframe src="video/googdev.mp4" type="video/mp4" top="400" width="500" height="322" frameborder="0" autoplay="true"> --> 
+
+<!-- </iframe> -->
+
+<!-- </div> --> 
+
+<!-- ##  {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+
+
 
 <!-- ## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
@@ -256,85 +416,15 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 <!-- *(amongst others)* -->
 
-# Machine Learning <br/> *Supervised* {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
-
-##  {background-video="video/galton.mp4" background-opacity="0.8"}
-
-##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
-
-##  {background-video="video/moneyball_result.mp4" background-opacity="0.8"}
-
-::: r-stack
-![](images/sabr/first-box-score.webp){.fragment .absolute top="100" left="200"} ![](images/sabr/hc_portret2.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/adv_score_sheet.png) {.fragment .absolute top="100" left="200"} ![](images/sabr/statcast01p.png) {.fragment .absolute top="100" left="200"}
-:::
-
-## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
-
-Fun run, wonder if you fancy taking part?
-
-<br/>
-
-. . .
-
-::: r-stack
-![](images/dt_01.png){.fragment .absolute top="100" left="200"} ![](images/dt_02.png){.fragment .absolute top="100" left="200"} ![](images/dt_03.png){.fragment .absolute top="100" left="200"} ![](images/dt_04.png){.fragment .absolute top="100" left="200"}
-:::
-
-## Modeling Decision trees
-
-Use case: Prediction (classification or regression)
-
-::: r-stack
-![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
-:::
-
-## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
-
-::: r-stack
-![](images/dt_u5.png){.fragment .absolute top="100" left="200"} ![](images/tsa0p.png){.fragment .absolute top="100" left="200"} ![](images/tsa1p.png){.fragment .absolute top="100" left="200"} ![](images/tsa2p.png){.fragment .absolute top="100" left="200"} ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"} ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
-:::
-
-## Random Forest
-
-## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
-
-::: {.smaller}
-Reinforcement Learning
-:::
-
-##  {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
-
-## Menace Practice
-
-::: {.fragment .fade-in}
-![](images/menace/game_01.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_02.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_03.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_04.png){.absolute right="100" width="1500"}
-:::
-
-::: footer
-[mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
-:::
-
-# Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
-
-## Brilliant
 
 # AI anno 2023 Generative AI 
 <br> 
-*Transformer models 2017*
+*Foundational models*
 
 ## LLM - chat DEMO
+## DALLE - Demo + quiz
+
+faces AI or real all on 1 page
 
 ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
 
@@ -370,7 +460,7 @@ power point slide
 
 Jobs - 10 x productivity
 environmental, energy etc
-AI act, Intelectual property
+AI act, Intellectual property
 
 
 <!-- ## Gemini -->
