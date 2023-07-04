@@ -121,7 +121,11 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 ![](images/go.webp){.absolute right="100" top="400" width="420" height="300"}
 
 ::: notes
-a realistic robot using AI technology looking like a boston dynamics robot on a background which is dark blue with stars and a bit spooky
+learning
+
+-   developer writes code: if this then do that..
+-   more features more code -\> too many possibilities
+-   objective based, train on examples
 :::
 
 # 
@@ -131,7 +135,8 @@ Prediction is very difficult,\
 especially if it's about the future.
 :::
 
-<br/> *-- Niels Bohr --*
+<br/> 
+*-- Niels Bohr --*
 
 ## Glass Box versus Black Box models {background-image="/images/int_ml/glass_vs_blackbox.png" background-opacity="0.5" background-size="cover"}
 
@@ -245,12 +250,6 @@ especially if it's about the future.
 AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
 :::
 
-## learning
-
--   developer writes code: if this then do that..
--   more features more code -\> too many possibilities
--   objective based, train on examples
-
 <!-- ## AI subfields {background-image="/images/ai_subfields.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
 <!-- ::: {style="font-size:  16px;"} -->
@@ -259,7 +258,7 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 # Machine Learning <br/> *Supervised* {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
 
-##  {background-video="video/GALTON.mp4" background-opacity="0.8"}
+##  {background-video="video/galton.mp4" background-opacity="0.8"}
 
 ##  {background-video="video/moneyball_intro.mp4" background-opacity="0.8"}
 
@@ -299,6 +298,10 @@ Use case: Prediction (classification or regression)
 
 ## 304 matchboxes {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
 
+::: {.smaller}
+Reinforcement Learning
+:::
+
 ##  {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
 
 ## Menace Practice
@@ -327,17 +330,19 @@ Use case: Prediction (classification or regression)
 
 ## Brilliant
 
-# AI anno 2023 Generative AI <br> *Transformer models 2017*\]
+# AI anno 2023 Generative AI 
+<br> 
+*Transformer models 2017*
 
-## LLM
+## LLM - chat DEMO
 
 ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"}
 
 # Robotics {background-video="video/robotics.mp4" background-opacity="0.8"}
 
-# Inventory Management {background-video="video/drones.mp4" background-opacity="0.8"}
-
 # Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
+
+## Inventory Management {background-video="video/ikea.mp4" background-opacity="0.8"}  
 
 # Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
 
@@ -345,25 +350,42 @@ Use case: Prediction (classification or regression)
 
 # AI Future
 
-> The best way to predict the future is to create it.
->
-> -- Peter Drucker --
+# 
+
+::: r-fit-text
+The best way to predict the future is \
+to create it.
+:::
+
+<br/> 
+*-- Peter Drucker --*
 
 . . .
 
 ## Picture from ppt
 
+# Face of AI {background-video="video/drones.mp4" background-opacity="0.8"}
+
+power point slide
+
+Jobs - 10 x productivity
+environmental, energy etc
+AI act, Intelectual property
+
+
 <!-- ## Gemini -->
 
 <!-- Multi-modal model -->
 
-##  {background-video="video/onebillionhappy.mp4" background-opacity="1"}
+#  {background-video="video/onebillionhappy.mp4" background-opacity="1"}
 
-#  {background-color="000000"}
+# 
 
-> The future depends on what we do in the present
->
-> -- Mahatma Gandhi --
+::: 
+The future depends on what we do in the present
+:::
+
+*-- Mahatma Gandhi --*
 
 ## Classification {visibility="hidden"}
 
