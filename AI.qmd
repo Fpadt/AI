@@ -259,7 +259,7 @@ to predict the most valuable players
 
 ##  {background-image="/images/time_line/tl06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## What is supervised Learning
+## Supervised Learning
 
 picture X -> system -> Y
 
@@ -321,6 +321,26 @@ Use case: Prediction (classification or regression)
 ::: r-stack
 ![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
 :::
+
+##  Quiz Question 
+
+![](images/survivorship_bias.png){.absolute top="25" left="500"}
+
+\
+This is a plane returning from battle in WWII. \
+The red dots are bullet holes.\
+\
+\
+\
+\
+\
+Where would you reinforce this plane?
+\
+
+- A red
+- B blue
+- C yellow
+- D green
 
 ##  {background-image="/images/time_line/tl13ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
