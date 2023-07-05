@@ -610,6 +610,10 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [Algoritmeregister](https://algoritmes.overheid.nl/nl)
 
+-   [VPRO Tegenlicht - de prijs van AI](https://www.vpro.nl/programmas/tegenlicht/kijk/afleveringen/2023-2024/de-prijs-van-ai.html)
+
+- [SimpliLearn](https://www.simplilearn.com/resources/artificial-intelligence-machine-learning)
+
 ## Video's
 
 -   [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
