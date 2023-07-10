@@ -560,6 +560,9 @@ Applications
 
 ## LLM 
 
+## {background-video="video/kamigo.mp4" background-opacity="1"}
+## {background-video="video/python_api.mp4" background-opacity="1"}
+
 ## how does a GPT/LLM work 
 
 ![](images/gpt/transformers-1.gif)
