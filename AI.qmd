@@ -181,9 +181,13 @@ especially if it's about the [**future**]{style="color: #005ABB"}.
 ![](images/lr/fg2.png){.fragment .absolute top="125" left="150" width="500"}
 
 ![](images/lr/fg4.png){.fragment .absolute top="125" left="140" width="500"}
-![](images/lr/fg3.png){.fragment .absolute top="125" left="140" width="500"}
-![](images/lr/fg7.png){.fragment .absolute top="125" left="140" width="500"} 
-![](images/lr/anscombe_q.png){.fragment .absolute top="125" left="140" width="500"} 
+![](images/lr/fg7.png){.fragment .absolute top="125" left="140" width="500"}
+
+![](images/lr/fg3.png){.fragment .absolute top="125" left="140" width="500"} 
+
+![](images/lr/fg8.png){.fragment .absolute top="125" left="140" width="500"}
+
+![](images/lr/fg9.png){.fragment .absolute top="125" left="140" width="500"} 
 :::
 
 ::: {.column  width="40%" }
@@ -207,7 +211,11 @@ the length of the parent.
 ::::
 
 ::: notes
-Conclusion: Prediction requires (quality) Data and Algorithm 
+Galton Conclusion: Prediction requires (quality) Data and Algorithm  
+
+- simple linear Model 1 parameter
+- supervised learning (in & output are known, training & test set)
+- low data quality (outliers) may ruin the model: so cleaning or more data 
 :::
 
 ##  {background-video="video/henry_chadwick.mp4" background-opacity="0.8"}
@@ -224,7 +232,7 @@ Conclusion: Prediction requires (quality) Data and Algorithm
 <br/>
 <br/>
 
-[**Models**]{style="color: #EF8200"} were created using multiple input metrics
+Models were created using [**multiple**]{style="color: #EF8200"} input metrics
 to predict the most valuable players
 
 <br/>
@@ -238,7 +246,10 @@ to predict the most valuable players
 
 ::: {.column width="50%"}
 ![](images/sabr/first-box-score.webp){.fragment .absolute top="30" left="0" width="1200"} 
+![](images/sabr/hc00.png){.fragment .absolute top="30" left="0" width="1200"} 
 ![](images/sabr/adv_score_sheet.png){.fragment .absolute top="30" left="0"} 
+![](images/sabr/hc01.jpg){.fragment .absolute top="30" left="0" width="1500"} 
+
 ![](images/sabr/sabr1.png){.fragment .absolute top="30" left="0"} 
 ![](images/sabr/sabr2.png){.fragment .absolute top="30" left="0"} 
 ![](images/sabr/sabr3.png){.fragment .absolute top="30" left="0"} 
@@ -253,21 +264,57 @@ to predict the most valuable players
 
 ##  {background-video="video/moneyball_3.mp4" background-opacity="0.8"}
 
-. . .
+::: {.r-stack}
 
-![](images/sabr/statcast01p.png) {.fragment .absolute top="-10" left="200"}
+![](images/sabr/statcast01p.png){.fragment .fade-in-then-out .absolute top="0" left="200"}
+
+![](images/sabr/statcast.png){.fragment .fade-in-then-out .absolute top="0" left="200"}
+
+![](images/sabr/conclusion.png){.fragment .fade-in-then-out .absolute top="50" left="200"}
+:::
+
+
+::: notes
+MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm  
+							
+- multiple parameters + combinations to predict
+- supervised learning (in & output are known, training & test set)
+- more data is better
+:::
+
+<!-- ## Quiz Confounders -->
+
+<!-- we see a relation between x and y. -->
+<!-- Can we change X by changing Y? -->
+
+<!-- ::: notes -->
+<!-- Quiz Conclusion: inference <> causation   -->
+<!-- ::: -->
 
 ##  {background-image="/images/time_line/tl06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## Supervised Learning
-
-picture X -> system -> Y
-
-split training and test
-
 ##  {background-image="/images/time_line/tl07ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## Reinforcement Learning {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
+## unsupervised Learning {background-image="video/group.png" background-opacity="1" background-size="cover"}
+
+![]() soccer teams based on k-means
+
+demo video tsne 
+t-distributed Stochastic Neighbor Embedding
+nonlinear dimensionality reduction
+
+https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a
+
+
+::: notes
+unsupervised Conclusion: context & Domain expertise important  
+
+- high dimensional -> prediction on proximity
+- unsupervised learning (output not known, data structure)
+- Context is important
+:::
+
+## Reinforcement Learning (RL) {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
 
 ::: {.smaller}
 Tic-Tac-Toe against 304 matchboxes
@@ -277,26 +324,18 @@ Tic-Tac-Toe against 304 matchboxes
 
 ##  {background-video="video/menace.mp4" background-opacity="0.8" visibility="uncounted"}
 
-## Menace Practice
-
-::: {.fragment .fade-in}
-![](images/menace/game_01.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_02.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_03.png){.absolute right="100" width="1500"}
-:::
-
-::: {.fragment .fade-in}
-![](images/menace/game_04.png){.absolute right="100" width="1500"}
-:::
-
 ::: footer
 [mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
+:::
+
+## Risk of Reinforcement Learning (RL) {background-video="video/hide_and_seek.mp4" background-opacity="0.8" visibility="uncounted"}
+
+::: notes
+Hide and Seek Conclusion: optimization technique, 
+							
+- automated learning based on reward function
+- reinforced the 'good' behavior at all costs
+- need "Human in the loop" to prevent creative solutions
 :::
 
 ##  {background-image="/images/time_line/tl07ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
@@ -304,7 +343,7 @@ Tic-Tac-Toe against 304 matchboxes
 
 ## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
 
-Fun run, wonder if you fancy taking part?
+predict [**who**]{style="color: #005ABB"} will take part in the [**fun run**]{style="color: #EF8200"}?
 
 <br/>
 
@@ -316,18 +355,41 @@ Fun run, wonder if you fancy taking part?
 
 ## Modeling Decision trees
 
-Use case: Prediction (classification or regression)
+Learning: automated selection of branches (depth), indicators (width) and order 
+based on labelled input data as training set.
 
 ::: r-stack
 ![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
 :::
 
-##  Quiz Question 
+::: notes
+decision trees Conclusion: data Quality of the labelled data 
+							
+- supervised model based on a training set of labelled data
+- selflearning on the depth, width of given parameters in train set
+:::
+
+##  Quiz Question: what type of learning are decision trees
+
+::: {.incremetal}
+
+1. Supervised Learning
+
+2. Unsupervised Learning
+
+3. refinforcement Learning
+:::
+
+::: notes
+Supervised learning so labelled data is needed
+:::
+
+##  Quiz Question: labelled input data  
 
 ![](images/survivorship_bias.png){.absolute top="25" left="500"}
 
 \
-This is a plane returning from battle in WWII. \
+This is a plane _returning_ from battle in WWII. \
 The red dots are bullet holes.\
 \
 \
@@ -342,15 +404,26 @@ Where would you reinforce this plane?
 - C yellow
 - D green
 
-##  {background-image="/images/time_line/tl13ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-## Random Forest
-
 ## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
 
 ::: r-stack
 ![](images/dt_u5.png){.fragment .absolute top="100" left="200"} ![](images/tsa0p.png){.fragment .absolute top="100" left="200"} ![](images/tsa1p.png){.fragment .absolute top="100" left="200"} ![](images/tsa2p.png){.fragment .absolute top="100" left="200"} ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"} ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
 :::
+
+Conclusion: high quality UNBIASED labelled data is needed 
+
+- labels from internet biased by default [alt-text]
+- data labelling is a Job
+
+##  {background-image="/images/time_line/tl13ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+## Risk Decision trees -> Random Forest
+
+Risk: overfitting or Biased input data results in GICO: Garbage in Catastrophe Out
+
+- solution direction: avergae the result of multiple randomized trees 
+- picture of the randomize d selection of trees and avergaing
+- problem: loss of interpretable
 
 ## Glass Box & Black Box models {background-image="/images/int_ml/glass_vs_blackbox.png" background-opacity="0.5" background-size="cover"}
 
@@ -472,6 +545,18 @@ AI has been around for decades, but recent advancements in Generative AI applica
 # Generative AI  
 <br> 
 *2023 - Foundational models*
+
+## Applications
+
+Applications
+- text 		-> Smarties (intellectual test), demo summarization, chatbot (chatGPT + Kamigo + virtual store assistent recommender)	Generation of Blogs
+- image		-> balloon test, demo blue bus, demo own picture Galton, 	
+- code		-> github Copilot/Sourcery, Datacamp NIVDIA
+- video		-> moving face, synthesia
+- music		-> 
+- GOLLEM 	->	NVIDIA picture
+
+## {background-video="video/kamigo.mp4" }
 
 ## LLM 
 
@@ -670,7 +755,9 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [Machine learning and Artificial Intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
 
--   [tSNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a) = [MENACE](https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc)
+-   [tSNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a) 
+
+=   [MENACE](https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc)
 
 -   [mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
 
@@ -715,3 +802,7 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 ##  {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1"}
 
 ##  {background-video="https://vimeo.com/548291297"}
+
+https://chat.openai.com/share/ae0d1074-b170-4872-84c6-4f7475e0a89a
+https://chat.openai.com/share/aeb2301c-28af-405b-b1f7-7dd0909e9d57
+
