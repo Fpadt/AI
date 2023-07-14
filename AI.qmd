@@ -94,12 +94,12 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 
 ## What is AI? {background-video="video/bg_01.mp4" background-opacity="0.2" background-video-loop="true"}
 
-. . . 
+. . .
 
 ::: r-fit-text
 <br/>
 
-*simulating* [human-like]{style="color: #005ABB"} intelligence, 
+*simulating* [human-like]{style="color: #005ABB"} intelligence,
 
 [**without**]{style="color: #EF8200"} explicit programming
 
@@ -108,7 +108,7 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 Think, Act, Learn
 :::
 
-##  {background-image="/images/def/df_1.png" background-opacity="1" background-size="cover" }
+##  {background-image="/images/def/df_1.png" background-opacity="1" background-size="cover"}
 
 ##  {background-image="/images/def/df_2.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
@@ -125,13 +125,21 @@ Think, Act, Learn
 <!-- <br/><br/> -->
 
 <!-- ::: {.incremental style="font-size:  60px;"} -->
+
 <!-- +-------------------+-----------------+--------------------+ -->
+
 <!-- | 🎓 **Learn**      | 🤖 **Act**      | 🧠 **Think**       | -->
+
 <!-- +===================+=================+====================+ -->
+
 <!-- | -   Supervised    |                 |                    | -->
+
 <!-- | -   Unsupervised  |                 |                    | -->
+
 <!-- | -   Reinforcement |                 |                    | -->
+
 <!-- +-------------------+-----------------+--------------------+ -->
+
 <!-- ::: -->
 
 <!-- . . . -->
@@ -143,129 +151,97 @@ Think, Act, Learn
 <!-- ![](images/go.webp){.absolute right="100" top="400" width="420" height="300"} -->
 
 ::: notes
-Defintion AI
-learning
+Defintion AI learning
 
 -   developer writes code: if this then do that..
 -   more features more code -\> too many possibilities
 -   objective based, train on examples
 :::
 
-# {background-image="/images/def/df_1.png" background-opacity="1" background-size="cover" }
+#  {background-image="/images/def/df_1.png" background-opacity="1" background-size="cover"}
 
 ::: r-fit-text
 Prediction is [**very**]{style="color: #EF8200"} difficult,\
 especially if it's about the [**future**]{style="color: #005ABB"}.
 :::
 
-<br/>
-*-- Niels Bohr --*
+<br/> *-- Niels Bohr --*
 
 ##  {background-image="/images/time_line/tl00.png" background-opacity="1" background-size="cover"}
+
 ##  {background-image="/images/time_line/tl01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 # Machine Learning {background-color="#8E1AB4" background-image="images/ml.png" background-size="cover"}
 
 ##  {background-video="video/galton.mp4" background-opacity="0.8"}
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
-
 ![](images/lr/fg1.png){.fragment .absolute top="125" left="140" width="500"}
 
 ![](images/lr/fg2.png){.fragment .absolute top="125" left="150" width="500"}
 
-![](images/lr/fg4.png){.fragment .absolute top="125" left="140" width="500"}
-![](images/lr/fg7.png){.fragment .absolute top="125" left="140" width="500"}
+![](images/lr/fg4.png){.fragment .absolute top="125" left="140" width="500"} ![](images/lr/fg7.png){.fragment .absolute top="125" left="140" width="500"}
 
-![](images/lr/fg3.png){.fragment .absolute top="125" left="140" width="500"} 
+![](images/lr/fg3.png){.fragment .absolute top="125" left="140" width="500"}
 
 ![](images/lr/fg8.png){.fragment .absolute top="125" left="140" width="500"}
 
-![](images/lr/fg9.png){.fragment .absolute top="125" left="140" width="500"} 
+![](images/lr/fg9.png){.fragment .absolute top="125" left="140" width="500"}
 :::
 
-::: {.column  width="40%" }
-<br/>
-<br/>
-<br/>
+::: {.column width="40%"}
+<br/> <br/> <br/>
 
-In 1880 Sir Francis Galton collected [**data**]{style="color: #005ABB"}
-on the length of sweet peas. 
+In 1880 Sir Francis Galton collected [**data**]{style="color: #005ABB"} on the length of sweet peas.
 
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/>
 
-Together with Karl Pearson a mathematical [**model**]{style="color: #EF8200"} 
-(algortihm) was created to predict the length of their offspring by 
-the length of the parent.   
-
+Together with Karl Pearson a mathematical [**model**]{style="color: #EF8200"} (algortihm) was created to predict the length of their offspring by the length of the parent.
 :::
-
-::::
+:::
 
 ::: notes
-Galton Conclusion: Prediction requires (quality) Data and Algorithm  
+Galton Conclusion: Prediction requires (quality) Data and Algorithm
 
-- simple linear Model 1 parameter
-- supervised learning (in & output are known, training & test set)
-- low data quality (outliers) may ruin the model: so cleaning or more data 
+-   simple linear Model 1 parameter
+-   supervised learning (in & output are known, training & test set)
+-   low data quality (outliers) may ruin the model: so cleaning or more data
 :::
 
 ##  {background-video="video/henry_chadwick.mp4" background-opacity="0.8"}
 
-
-:::: {.columns}
+::: columns
 ::: {.column width="50%"}
-<br/>
-<br/>
-**Henry Chadwick** - *the father of baseball* - started to collect 
-[**data**]{style="color: #005ABB"} on each ball played 
+<br/> <br/> **Henry Chadwick** - *the father of baseball* - started to collect [**data**]{style="color: #005ABB"} on each ball played
 
+<br/> <br/>
 
-<br/>
-<br/>
+Models were created using [**multiple**]{style="color: #EF8200"} input metrics to predict the most valuable players
 
-Models were created using [**multiple**]{style="color: #EF8200"} input metrics
-to predict the most valuable players
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
+<br/> <br/> <br/> <br/> <br/>
 :::
 
 ::: {.column width="50%"}
-![](images/sabr/first-box-score.webp){.fragment .absolute top="30" left="0" width="1200"} 
-![](images/sabr/hc00.png){.fragment .absolute top="30" left="0" width="1200"} 
-![](images/sabr/adv_score_sheet.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/hc01.jpg){.fragment .absolute top="30" left="0" width="1500"} 
+![](images/sabr/first-box-score.webp){.fragment .absolute top="30" left="0" width="1200"} ![](images/sabr/hc00.png){.fragment .absolute top="30" left="0" width="1200"} ![](images/sabr/adv_score_sheet.png){.fragment .absolute top="30" left="0"} ![](images/sabr/hc01.jpg){.fragment .absolute top="30" left="0" width="1500"}
 
-![](images/sabr/sabr1.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr2.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr3.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr4.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr5.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr6.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr7.png){.fragment .absolute top="30" left="0"} 
-![](images/sabr/sabr_edx.png){.fragment .absolute top="30" left="0"} 
-
+![](images/sabr/sabr1.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr2.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr3.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr4.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr5.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr6.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr7.png){.fragment .absolute top="30" left="0"} ![](images/sabr/sabr_edx.png){.fragment .absolute top="30" left="0"}
 :::
-::::
+:::
 
 ##  {background-video="video/moneyball_3.mp4" background-opacity="0.8"}
 
-::: {.r-stack}
-
+::: r-stack
 ![](images/sabr/statcast01p.png){.fragment .fade-in-then-out .absolute top="0" left="200"}
 
 ![](images/sabr/statcast.png){.fragment .fade-in-then-out .absolute top="0" left="200"}
@@ -273,22 +249,24 @@ to predict the most valuable players
 ![](images/sabr/conclusion.png){.fragment .fade-in-then-out .absolute top="50" left="200"}
 :::
 
-
 ::: notes
-MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm  
-							
-- multiple parameters + combinations to predict
-- supervised learning (in & output are known, training & test set)
-- more data is better
+MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
+
+-   multiple parameters + combinations to predict
+-   supervised learning (in & output are known, training & test set)
+-   more data is better
 :::
 
 <!-- ## Quiz Confounders -->
 
 <!-- we see a relation between x and y. -->
+
 <!-- Can we change X by changing Y? -->
 
 <!-- ::: notes -->
+
 <!-- Quiz Conclusion: inference <> causation   -->
+
 <!-- ::: -->
 
 ##  {background-image="/images/time_line/tl06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
@@ -299,24 +277,21 @@ MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
 
 ![]() soccer teams based on k-means
 
-demo video tsne 
-t-distributed Stochastic Neighbor Embedding
-nonlinear dimensionality reduction
+demo video tsne t-distributed Stochastic Neighbor Embedding nonlinear dimensionality reduction
 
 https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a
 
-
 ::: notes
-unsupervised Conclusion: context & Domain expertise important  
+unsupervised Conclusion: context & Domain expertise important
 
-- high dimensional -> prediction on proximity
-- unsupervised learning (output not known, data structure)
-- Context is important
+-   high dimensional -\> prediction on proximity
+-   unsupervised learning (output not known, data structure)
+-   Context is important
 :::
 
 ## Reinforcement Learning (RL) {background-image="/images/menace/start.png" background-opacity="1" background-size="cover"}
 
-::: {.smaller}
+::: smaller
 Tic-Tac-Toe against 304 matchboxes
 :::
 
@@ -331,14 +306,15 @@ Tic-Tac-Toe against 304 matchboxes
 ## Risk of Reinforcement Learning (RL) {background-video="video/hide_and_seek.mp4" background-opacity="0.8" visibility="uncounted"}
 
 ::: notes
-Hide and Seek Conclusion: optimization technique, 
-							
-- automated learning based on reward function
-- reinforced the 'good' behavior at all costs
-- need "Human in the loop" to prevent creative solutions
+Hide and Seek Conclusion: optimization technique,
+
+-   automated learning based on reward function
+-   reinforced the 'good' behavior at all costs
+-   need "Human in the loop" to prevent creative solutions
 :::
 
 ##  {background-image="/images/time_line/tl07ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
 ##  {background-image="/images/time_line/tl12ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ## Decision Trees {background-video="video/computer_says_no_1.mp4" background-opacity="0.8"}
@@ -355,54 +331,51 @@ predict [**who**]{style="color: #005ABB"} will take part in the [**fun run**]{st
 
 ## Modeling Decision trees
 
-Learning: automated selection of branches (depth), indicators (width) and order 
-based on labelled input data as training set.
+Learning: automated selection of branches (depth), indicators (width) and order based on labelled input data as training set.
 
 ::: r-stack
 ![](images/dt_u1.png){.fragment .absolute top="50" left="200"} ![](images/dt_u2.png){.fragment .absolute top="50" left="200"} ![](images/dt_u3.png){.fragment .absolute top="50" left="200"} ![](images/dt_u4.png){.fragment .absolute top="50" left="200"}
 :::
 
 ::: notes
-decision trees Conclusion: data Quality of the labelled data 
-							
-- supervised model based on a training set of labelled data
-- selflearning on the depth, width of given parameters in train set
+decision trees Conclusion: data Quality of the labelled data
+
+-   supervised model based on a training set of labelled data
+-   selflearning on the depth, width of given parameters in train set
 :::
 
-##  Quiz Question: what type of learning are decision trees
+## Quiz Question: what type of learning are decision trees
 
-::: {.incremetal}
+::: incremetal
+1.  Supervised Learning
 
-1. Supervised Learning
+2.  Unsupervised Learning
 
-2. Unsupervised Learning
-
-3. refinforcement Learning
+3.  refinforcement Learning
 :::
 
 ::: notes
 Supervised learning so labelled data is needed
 :::
 
-##  Quiz Question: labelled input data  
+## Quiz Question: labelled input data
 
 ![](images/survivorship_bias.png){.absolute top="25" left="500"}
 
 \
-This is a plane _returning_ from battle in WWII. \
+This is a plane *returning* from battle in WWII.\
 The red dots are bullet holes.\
 \
 \
 \
 \
 \
-Where would you reinforce this plane?
-\
+Where would you reinforce this plane?\
 
-- A red
-- B blue
-- C yellow
-- D green
+-   A red
+-   B blue
+-   C yellow
+-   D green
 
 ## Toeslagenaffaire 2013-2023 {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
 
@@ -410,87 +383,82 @@ Where would you reinforce this plane?
 ![](images/dt_u5.png){.fragment .absolute top="100" left="200"} ![](images/tsa0p.png){.fragment .absolute top="100" left="200"} ![](images/tsa1p.png){.fragment .absolute top="100" left="200"} ![](images/tsa2p.png){.fragment .absolute top="100" left="200"} ![](images/tsa3p.png){.fragment .absolute top="100" left="200"} ![](images/tsa4p.png){.fragment .absolute top="100" left="200"} ![](images/tsa5p.png){.fragment .absolute top="100" left="200"}
 :::
 
-Conclusion: high quality UNBIASED labelled data is needed 
+Conclusion: high quality UNBIASED labelled data is needed
 
-- labels from internet biased by default [alt-text]
-- data labelling is a Job
+-   labels from internet biased by default \[alt-text\]
+-   data labelling is a Job
 
 ##  {background-image="/images/time_line/tl13ml.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-## Risk Decision trees -> Random Forest
+## Risk Decision trees -\> Random Forest
 
 Risk: overfitting or Biased input data results in GICO: Garbage in Catastrophe Out
 
-- solution direction: avergae the result of multiple randomized trees 
-- picture of the randomize d selection of trees and avergaing
-- problem: loss of interpretable
+-   solution direction: avergae the result of multiple randomized trees
+-   picture of the randomize d selection of trees and avergaing
+-   problem: loss of interpretable
 
 ## Glass Box & Black Box models {background-image="/images/int_ml/glass_vs_blackbox.png" background-opacity="0.5" background-size="cover"}
 
-. . . 
+. . .
 
 ![](images/int_ml/int_flex.png){.absolute top="75" left="0" witdth="1600"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="27%"}
 :::
 
 ::: {.column width="37%"}
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/>
 
-::: {.incremental}
-- Decision Trees
-- Linear Regression
-- Logistic Regression
+::: incremental
+-   Decision Trees
+-   Linear Regression
+-   Logistic Regression
 :::
 :::
 
 ::: {.column width="36%"}
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
-::: {.incremental}
-- Random Forest
-- Neural Networks
-- Transformers
+::: incremental
+-   Random Forest
+-   Neural Networks
+-   Transformers
 :::
 :::
-
-::::
+:::
 
 # Neural Networks {background-color="#68D7A4" background-image="images/nn.png" background-size="cover"}
 
 ##  {background-image="/images/time_line/tl09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/tl18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
+##  {background-image="/images/time_line/tl10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl11.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl12.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/time_line/tl18.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ## Brilliant
 
-- single layer Neural network (cat)
-- multile/deep learning (character recognition)
+-   single layer Neural network (cat)
+-   multile/deep learning (character recognition)
 
 ##  {background-image="/images/time_line/tl19.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-. . . 
+. . .
 
 ::: {.fragment fade-in-then-out}
 
@@ -498,13 +466,9 @@ Risk: overfitting or Biased input data results in GICO: Garbage in Catastrophe O
 
 :::
 
-
-
 ##  {background-image="/images/time_line/tl20.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: {.fragment fade-in-then-out} 
-![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} 
-:::
+::: {.fragment fade-in-then-out} ![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} :::
 
 ::: notes
 AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
@@ -512,63 +476,55 @@ AI has been around for decades, but recent advancements in Generative AI applica
 
 ##  {background-image="/images/time_line/tl20.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-
 <!-- ::: {.fragment fade-in-then-out} ![](images/attention_is_all_you_need.png){.absolute top="150" right="50"} ::: -->
 
 <!-- ##  {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
 <!-- ::: {.fragment fade-in-then-out} ![](images/goodev.gif){.absolute top="150" right="100" width="1600" height="362"} ::: -->
 
-<!-- <video autoplay="false" > --> 
+<!-- <video autoplay="false" > -->
 
-<!--   <source src="video/googdev.mp4" type="video/mp4"> --> 
+<!--   <source src="video/googdev.mp4" type="video/mp4"> -->
 
-<!-- </video> --> 
+<!-- </video> -->
 
-<!-- ## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} --> 
+<!-- ## {background-image="/images/tl-01.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
-<!-- <div class="cc-video-wrapper"> --> 
+<!-- <div class="cc-video-wrapper"> -->
 
-<!-- <iframe src="video/googdev.mp4" type="video/mp4" top="400" width="500" height="322" frameborder="0" autoplay="true"> --> 
+<!-- <iframe src="video/googdev.mp4" type="video/mp4" top="400" width="500" height="322" frameborder="0" autoplay="true"> -->
 
 <!-- </iframe> -->
 
-<!-- </div> --> 
+<!-- </div> -->
 
 <!-- ##  {background-image="/images/tl-00.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
-
-
 <!-- ::: {style="font-size:  16px;"} -->
 
+# Generative AI
 
-# Generative AI  
-<br> 
-*2023 - Foundational models*
+<br> *2023 - Foundational models*
 
 ## Applications
 
-Applications
-- text 		-> Smarties (intellectual test), demo summarization, chatbot (chatGPT + Kamigo + virtual store assistent recommender)	Generation of Blogs
-- image		-> balloon test, demo blue bus, demo own picture Galton, 	
-- code		-> github Copilot/Sourcery, Datacamp NIVDIA
-- video		-> moving face, synthesia
-- music		-> 
-- GOLLEM 	->	NVIDIA picture
+Applications - text -\> Smarties (intellectual test), demo summarization, chatbot (chatGPT + Kamigo + virtual store assistent recommender) Generation of Blogs - image -\> balloon test, demo blue bus, demo own picture Galton,\
+- code -\> github Copilot/Sourcery, Datacamp NIVDIA - video -\> moving face, synthesia - music -\> - GOLLEM -\> NVIDIA picture
 
-## {background-video="video/kamigo.mp4" }
+##  {background-video="video/kamigo.mp4"}
 
-## LLM 
+## LLM
 
-## {background-video="video/kamigo.mp4" background-opacity="1"}
-## {background-video="video/python_api.mp4" background-opacity="1"}
+##  {background-video="video/kamigo.mp4" background-opacity="1"}
 
-## how does a GPT/LLM work 
+##  {background-video="video/python_api.mp4" background-opacity="1"}
 
-![](images/gpt/transformers-1.gif)
-![](images/gpt/transformers-3.gif)
+## how does a GPT/LLM work
+
+![](images/gpt/transformers-1.gif) ![](images/gpt/transformers-3.gif)
 
 ## transformers
+
 ![](/images/gpt/transformers-2.png)
 
 ## training
@@ -587,7 +543,7 @@ faces AI or real all on 1 page
 
 # Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"}
 
-## Inventory Management {background-video="video/ikea.mp4" background-opacity="0.8"}  
+## Inventory Management {background-video="video/ikea.mp4" background-opacity="0.8"}
 
 # Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"}
 
@@ -598,13 +554,11 @@ faces AI or real all on 1 page
 # 
 
 ::: r-fit-text
-The best way to predict the [**future**]{style="color: #005ABB"} \ 
-is \
+The best way to predict the [**future**]{style="color: #005ABB"}   is\
 to [**create**]{style="color: #EF8200"} it.
 :::
 
-<br/> 
-*-- Peter Drucker --*
+<br/> *-- Peter Drucker --*
 
 . . .
 
@@ -614,10 +568,9 @@ to [**create**]{style="color: #EF8200"} it.
 
 power point slide
 
-Jobs - 10 x productivity \
-environmental, energy etc \
-AI act, Intellectual property \
-
+Jobs - 10 x productivity\
+environmental, energy etc\
+AI act, Intellectual property\
 
 <!-- ## Gemini -->
 
@@ -626,12 +579,11 @@ AI act, Intellectual property \
 # 
 
 ::: r-fit-text
-The [**future**]{style="color: #005ABB"} depends on \
+The [**future**]{style="color: #005ABB"} depends on\
 what [**we**]{style="color: #EF8200"} do in the present
 :::
 
-<br/> 
-*-- Mahatma Gandhi --*
+<br/> *-- Mahatma Gandhi --*
 
 #  {background-video="video/onebillionhappy.mp4" background-opacity="1"}
 
@@ -758,9 +710,9 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [Machine learning and Artificial Intelligence](https://cloud.google.com/learn/training/machinelearning-ai)
 
--   [tSNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a) 
+-   [tSNE](https://towardsdatascience.com/t-sne-clearly-explained-d84c537f53a)
 
-=   [MENACE](https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc)
+= [MENACE](https://odsc.medium.com/how-300-matchboxes-learned-to-play-tic-tac-toe-using-menace-35e0e4c29fc)
 
 -   [mscroggs.co.uk: MENACE](https://www.mscroggs.co.uk/menace/)
 
@@ -772,7 +724,7 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 -   [VPRO Tegenlicht - de prijs van AI](https://www.vpro.nl/programmas/tegenlicht/kijk/afleveringen/2023-2024/de-prijs-van-ai.html)
 
-- [SimpliLearn](https://www.simplilearn.com/resources/artificial-intelligence-machine-learning)
+-   [SimpliLearn](https://www.simplilearn.com/resources/artificial-intelligence-machine-learning)
 
 ## Video's
 
@@ -806,6 +758,4 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 
 ##  {background-video="https://vimeo.com/548291297"}
 
-https://chat.openai.com/share/ae0d1074-b170-4872-84c6-4f7475e0a89a
-https://chat.openai.com/share/aeb2301c-28af-405b-b1f7-7dd0909e9d57
-
+https://chat.openai.com/share/ae0d1074-b170-4872-84c6-4f7475e0a89a https://chat.openai.com/share/aeb2301c-28af-405b-b1f7-7dd0909e9d57
