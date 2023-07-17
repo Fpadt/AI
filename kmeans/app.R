@@ -15,7 +15,7 @@ ui <- fluidPage(
     # Application title
     titlePanel("Old Faithful Geyser Data"),
 
-    # Sidebar with a slider input for number of bins 
+    # Sidebar with a slider input for number of bins
     sidebarLayout(
         sidebarPanel(
             sliderInput("bins",
@@ -37,15 +37,14 @@ server <- function(input, output) {
 
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
+        library(ggplot2)
+        ggplot(data, aes(number_of_reviews, price, color = room_type, shape = room_type)) +
+            geom_point(alpha = 0.25) +
+            xlab("Number of reviews") +
+            ylab("Price")
 
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white',
-             xlab = 'Waiting time to next eruption (in mins)',
-             main = 'Histogram of waiting times')
     })
 }
 
-# Run the application 
+# Run the application
 shinyApp(ui = ui, server = server)
