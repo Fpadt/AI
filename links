@@ -1,22 +1,13 @@
-https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+
 https://platform.openai.com/docs/guides/gpt
 https://platform.openai.com/playground?mode=chat&model=gpt-3.5-turbo-16k
 https://openai.com/pricing
-https://platform.openai.com/tokenizer
 
-https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
-
-https://github.com/techleadhd/chatgpt-retrieval/tree/main
 rai_02 1.mp3
-
-
-GPTs can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less GPTs have to guess at what you want, the more likely you’ll get it.
 
 ---
 
 AI
-- “narrow AI” “a machine-based system designed to address a specific problem (such as playing Go or chess)”
-- “general AI”. "machines with the ability to solve many different types of problems on their own, like humans can"
 
 problem-solving: “Intelligence is the ability to solve problems [Howard](https://intelltheory.com/intelli/howard-gardner/)
 
@@ -32,14 +23,9 @@ mid 1980's AI winter another AI (poor investments)
 3rd wave
 (lot's of computing and data, deep neural networks)
 
-[history of AI](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)
+
 (backpropagation)
 2012 hintman AlexNet picture
-[10-best-milestones-of-ai](https://pythongeeks.org/10-best-milestones-of-ai/)
-
-
-[AI has limitations](https://bigthink.com/the-future/what-ai-cannot-do/#:~:text=AI%20cannot%20create%2C%20conceptualize%2C%20or,domains%20or%20apply%20common%20sense)
-[wide range of business applications](https://builtin.com/artificial-intelligence/examples-ai-in-industry)
 
 [MIT Technology Review](https://www.technologyreview.com/)
 [Sloan Management Review](https://sloanreview.mit.edu/)
@@ -55,22 +41,8 @@ the most effective way to combine people and computers.
 - wht tasks should computers do
 what tasks should people do
 
-[History of AI](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)
-[10 Best Milestones of AI](https://pythongeeks.org/10-best-milestones-of-ai/)
 https://monkeylearn.com/blog/nlp-ai/
-https://monkeylearn.com/sentiment-analysis-online/
-
-https://www.abc.net.au/news/2023-03-11/robodebt-scheme-government-royal-commission-fraud/102074840
-
-https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
 
 [Four Types of Machine Learning Algorithms Explained](https://www.seldon.io/four-types-of-machine-learning-algorithms-explained)
 [4 types](https://www.youtube.com/watch?v=EriQpAEAv68)
-
-[Google API](https://cloud.google.com/vision/docs/drag-and-drop)
-
-[MS365 copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/)
-[MS365 copilot teams](https://wus-streaming-video-rt-microsoft-com.akamaized.net/d23e95d2-ba4a-476a-8611-404dd230c620/3680d494-b141-4e53-a354-e78cff68_6750.mp4)
-
-[github copilot chat](https://www.youtube.com/watch?v=3surPGP7_4o)

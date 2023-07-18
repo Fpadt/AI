@@ -1,5 +1,5 @@
 ---
-title   : "AI"
+title   : "Artificial Intelligence"
 date    : today
 date-format: long
 title-slide-attributes:
@@ -108,7 +108,7 @@ I see these technologies acting as a [co-pilot]{.fragment .highlight_background-
 Think, Act, Learn
 :::
 
-::: notes
+::: {.notes}
 Learning vs Explicit programming
 
 -   NO *if then else* as it is impossible to cover all possibilities 
@@ -123,20 +123,20 @@ Learning vs Explicit programming
 
 ##  {background-image="/images/def/df_4.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 Deep Learning: Deep learning is a subset of machine learning that focuses on artificial neural networks with multiple layers. It enables the model to automatically learn hierarchical representations of data, leading to powerful pattern recognition capabilities.
 :::
 
 ##  {background-image="/images/def/df_5.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 - learn the boundary between classes in the dataset. 
 - learn a mapping from input to output (not the underlying probability distribution of the data)
 :::
 
 ##  {background-image="/images/def/df_6.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 - learn the actual distribution of each class in the dataset. 
 - generate new instances of data by using the underlying data distribution.
 (text, images, video, ...)
@@ -159,7 +159,7 @@ especially if it's about the [**future**]{style="color: #005ABB"}.
 
 <br/> *-- Niels Bohr --*
 
-::: notes
+::: {.notes}
 wait till future becomes presence to assess accuracy reality vs prediction
 train/test on historical data so we know the real outcome
 :::
@@ -179,11 +179,11 @@ train/test on historical data so we know the real outcome
 ##  {background-image="/images/time_line/ag13.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ag14.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ag15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/ag16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/ag17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 # Supervised Learning {background-color="#502FD3" background-image="" background-size="cover"}
 
-::: notes
+::: {.notes}
 
 **Supervised Learning**: This technique involves training AI models using labeled data, where the model learns patterns and relationships to make predictions or classify new, unseen data.
 
@@ -193,7 +193,7 @@ train/test on historical data so we know the real outcome
 
 ##  {background-image="/images/learning/learn_01.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 - For each observation, we know the correct answer y = X
 :::
 
@@ -243,7 +243,7 @@ Together with Karl Pearson a mathematical [**model**]{style="color: #EF8200"} (a
 :::
 :::
 
-::: notes
+::: {.notes}
 Galton Conclusion: Prediction requires (quality) Data and Algorithm
 
 -   simple linear Model 1 parameter
@@ -288,7 +288,7 @@ Models were created using [**multiple**]{style="color: #EF8200"} input metrics t
 ![](images/sabr/conclusion.png){.fragment .fade-in-then-out .absolute top="50" left="200"}
 :::
 
-::: notes
+::: {.notes}
 MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
 
 -   multiple parameters + combinations to predict
@@ -302,7 +302,7 @@ MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
 
 <!-- Can we change X by changing Y? -->
 
-<!-- ::: notes -->
+<!-- ::: {.notes} -->
 
 <!-- Quiz Conclusion: inference <> causation   -->
 
@@ -323,14 +323,14 @@ MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
 
 ![](images/nn/ann2.gif){.fragment .fade-in .absolute top="150" left="0" width="700"}
 
-![](images/nn/cnn_cost_function.jpg){.fragment .fade-in-then-out .absolute top="275" left="0" width="700"}
+![](images/nn/cnn_cost_function.jpg){.fragment .fade-in-then-out .absolute top="300" left="50" width="600"}
 :::
 
 ##  {background-image="/images/time_line/ag06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ##  {background-image="/images/time_line/ag07_dc.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/ag07_NIST.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/time_line/ag07_IBM.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/ag07_nist.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/ag07_ibm.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ag07_CNN.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ##  {background-image="/images/nn/cnn_02.png" background-opacity="1" background-size="cover" }
@@ -352,8 +352,17 @@ MoneyBall Conclusion: Prediction requires (quality) Data and Algorithm
 
 ### Convolutional Neural Network
 ::: {.r-stack}
+![](images/nn/tiger1.png){.fragment .fade-in-then-out .absolute top="275" left="45" width="200"}
+![](images/nn/tiger2.png){.fragment .fade-in-then-out .absolute top="275" left="45" width="200"}
+![](images/nn/tiger3.png){.fragment .fade-in-then-out .absolute top="275" left="45" width="200"}
+![](images/nn/tiger4.png){.fragment .fade-in-then-out .absolute top="255" left="65" width="200"}
 
 :::
+
+##  {background-image="/images/00.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+### Convolutional Neural Network
+![](images/nn/face_reg.png){.absolute top="60" left="10" width="1600"}
+
 ##  {background-image="/images/time_line/ag08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ag09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
@@ -384,7 +393,7 @@ predict [**who**]{style="color: #005ABB"} will take part in the [**fun run**]{st
 ##  {background-image="/images/dt/dt04.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/dt/dt05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 decision trees Conclusion: data Quality of the labelled data
 - **Decision Trees:** are graphical models that make decisions or predictions based on a series of rules or conditions. They are often used for classification or regression tasks and provide interpretable and understandable models
 - automated selection of branches (depth), indicators (width) and order
@@ -398,20 +407,20 @@ decision trees Conclusion: data Quality of the labelled data
 
 ##  {background-image="/images/dt/dt_rf2.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 <br/>
-Solution: [sample labelled data]{style="color: #005ABB"}
+Solution: [sample]{style="color: #005ABB"} labelled data
 
 ##  {background-image="/images/dt/dt_rf3.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 <br/>
-Solution: [sample features]{style="color: #005ABB"}
+Solution: [sample]{style="color: #005ABB"} features
 
 ##  {background-image="/images/dt/dt_rf4.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 \
 
 ### Random Forest
-The [majority]{style="color: #005ABB"} vote counts
+The [majority]{style="color: #EF8200"} vote counts
 
-::: notes
+::: {.notes}
 -   solution direction: average the result of multiple randomized trees
 -   problem: loss of interpretable
 :::
@@ -426,15 +435,16 @@ The [majority]{style="color: #005ABB"} vote counts
 <!-- 3.  refinforcement Learning -->
 <!-- ::: -->
 
-<!-- ::: notes -->
+<!-- ::: {.notes} -->
 <!-- Supervised learning so labelled data is needed -->
 <!-- ::: -->
 
 # Unsupervised Learning {background-color="#56B5FB" background-image="" background-size="cover"}
 
-::: notes
+::: {.notes}
 **Unsupervised Learning**: Unsupervised learning involves training AI models on unlabeled data, where the model learns patterns and structures without specific guidance, often used for tasks like clustering.
 :::
+
 ##  {background-image="/images/learning/learn_01.png" background-opacity="1" background-size="cover"}
 ##  {background-image="/images/learning/learn_02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/learning/learn_03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
@@ -442,8 +452,11 @@ The [majority]{style="color: #005ABB"} vote counts
 
 ##  {background-image="/images/learning/learn_05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/learning/learn_06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/learning/learn_06a.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/learning/learn_06b.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+<!-- ##  {background-image="/images/learning/learn_06c.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
-::: notes
+::: {.notes}
 - we dont know the correct answer
 - Patterns and structure in data
 - discovering clusters/groups in data
@@ -454,10 +467,13 @@ The [majority]{style="color: #005ABB"} vote counts
 
 # Semi-Supervised Learning {background-color="#167FCE" background-image="" background-size="cover"}
 
-##  {background-image="/images/learning/ss04.png" background-opacity="1" background-size="cover"}
-##  {background-image="/images/learning/ss05.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/learning/ss03.png" background-opacity="1" background-size="cover"}
+<!-- ##  {background-image="/images/learning/ss04.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
+<!-- ##  {background-image="/images/learning/ss05.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 ##  {background-image="/images/learning/ss06.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/learning/ss07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/learning/ss08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/learning/ss09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ## {background-video="video/computer_says_no_2.mp4" background-opacity="0.8"}
 
@@ -472,7 +488,7 @@ The [majority]{style="color: #005ABB"} vote counts
 ![](images/tsa5p.png){.fragment .absolute top="50" left="200" width="1800"}
 :::
 
-::: notes
+::: {.notes}
 Conclusion: high quality UNBIASED labelled data is needed
 
 -   labels from internet biased by default \[alt-text\]
@@ -510,7 +526,11 @@ Conclusion: high quality UNBIASED labelled data is needed
 :::
 :::
 
-::: notes
+. . . 
+
+![](images/bbs.gif){.absolute top="450" right="235" width="350"}
+
+::: {.notes}
 There is a decision being made about you in this box.
 :::
 
@@ -535,7 +555,7 @@ Where would you reinforce this plane?\
 
 # Reinforcement Learning {background-color="#F9BD8B" background-image="" background-size="cover"}
 
-::: notes
+::: {.notes}
 
 Reinforcement Learning: In reinforcement learning, an AI agent learns to make decisions by interacting with an environment and receiving feedback in the form of rewards or punishments. The agent learns through trial and error to maximize its cumulative rewards.
 :::
@@ -568,7 +588,7 @@ Reinforcement Learning (RL)
 
 ## Risk of Reinforcement Learning (RL) {background-video="video/hide_and_seek.mp4" background-opacity="0.8" visibility="uncounted"}
 
-::: notes
+::: {.notes}
 Hide and Seek Conclusion: optimization technique,
 
 -   automated learning based on reward function
@@ -580,17 +600,58 @@ Hide and Seek Conclusion: optimization technique,
 ##  {background-image="/images/time_line/ag15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 ::: {.r-stack}
-
 ![](images/attention_is_all_you_need.png){.fragment .fade-in-then-out .absolute top="150" right="50"}
-![](images/goodev.gif){.fragment .fade-in-then-out .absolute top="150" right="100" width="1600" height="362"} 
-
 :::
 
-::: notes
+
+## {background-image="/images/smart/next_token.png" background-opacity="1" background-size="cover" }
+
+::: {.notes}
 AI has been around for decades, but recent advancements in Generative AI applications are disruptive and transforming our lives. Generative AI creates new data based on old
 :::
 
+## {background-image="/images/smart/next_token.png" background-opacity="0.2" background-size="cover" visibility="uncounted"}
+
+::: {.r-stack}
+![Train & Test](images/gpt/transformers-1.gif){.fragment .fade-in-then-out .absolute top="300" left="35" width="1600"} 
+![Reinforcement Learning with Human Feedback RLHF](images/gpt/transformers-3.gif){.fragment .fade-in-then-out .absolute top="300" left="35" width="1600"}
+![Which words are 'close' to each other?](images/gpt/transformers-2.png){.fragment .fade-in-then-out .absolute top="50" left="35" width="1600"}
+![To which word does **it** relate the most?](images/smart/att.png){.fragment .fade-in-then-out .absolute top="50" left="35"}
+:::
+
+## {background-image="images/gpt/gpt_training.jpg" background-opacity="1" background-size="cover" }
+
+::: {.notes}
+:::
+
+## {background-image="images/smart/RLFH.png" background-opacity="1" background-size="cover" }
+
+::: {.notes}
+:::
+
+## {background-image="/images/time_line/ag15.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+::: {.r-stack}
+![](images/goodev.gif){.fragment .fade-in-then-out .absolute top="150" right="100" width="1600" height="362"} 
+:::
+
 ##  {background-image="/images/time_line/ag16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+
+##  {background-image="/images/CPU-vs-GPU.jpg" background-opacity="1" background-size="cover"}
+
+::: {.r-stack}
+[8 Cores]{.fragment .fade-in .absolute top="75" left="250" width="400"}
+[3000+ CUDA Cores]{.fragment .fade-in .absolute top="75" right="320" width="400"}
+![CNN](images/nn/cnn0.gif){.fragment .fade-in-then-out .absolute top="140" right="275" width="435"}
+![NVDA](images/NVDA.png){.fragment .fade-in-then-out .absolute top="50" left="50"}
+:::
+
+::: {.notes}
+CPU for some large generic operational tasks (a few cores) (word)
+GPU for many small specifc tasks in parallell (many cores)
+:::
+
+##  {background-image="/images/time_line/ag16.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+##  {background-image="/images/time_line/ag17.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 
 
 # Generative AI {background-image="/images/gen_ai.png" background-opacity="1" background-size="cover" }
@@ -610,21 +671,26 @@ AI has been around for decades, but recent advancements in Generative AI applica
 \
 \
 
-## Generative Pre-trained Transformers (GPT)
+::: footer
+[NVIDIA Keynote at COMPUTEX 2023](https://youtu.be/i-wpzS9ZsCs?t=1222){preview-link="false"}
+:::
 
+
+## Generative Pre-trained Transformers (GPT)  
 - LLM
 
 - summarization
 - FAQ & chatBOT (Kamigo + virtual store assistent recommender) 
-- sentiment https://monkeylearn.com/sentiment-analysis-online/
-- generate
+- [sentiment](https://monkeylearn.com/sentiment-analysis-online/)
+- generative new teskt, image
 - coding github Copilot/Sourcery
-- datacamp
-- MS365
+- datacamp example for data science
+- [MS365 copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/)
+- [MS365 copilot teams](https://wus-streaming-video-rt-microsoft-com.akamaized.net/d23e95d2-ba4a-476a-8611-404dd230c620/3680d494-b141-4e53-a354-e78cff68_6750.mp4)
 
 ## Applications {.scrollable }
 
-![](/images/GPT/apps.png){.absolute top="150" right="0" width="1000" height="5432"}
+![](images/gpt/apps.png){.absolute top="150" right="0" }
 
 ##  {background-image="/images/smart/smart0.png" background-opacity="1" background-size="cover"}
 ##  {background-image="/images/smart/smart1.png" background-opacity="1" background-size="cover" visibility="uncounted"}
@@ -632,31 +698,39 @@ AI has been around for decades, but recent advancements in Generative AI applica
 ##  {background-image="/images/smart/smart3.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/smart/smart4.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/smart/smart5.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-##  {background-image="/images/smart/smart6.png" background-opacity="1" background-size="cover" visibility="uncounted"}
+::: {.notes}
+Always put chat in a Role
+- gangsta rapper
+- man with IQ of 120 (don;t use 400 becasue you will get weird SciFi answers)
+- professor who is always correct and explaining in layman terms to student 
+(always correct as these systems tend to be creative (hallucinating, making up things) CNN
+
+GPTs can’t read your mind. If outputs are too long, ask for brief replies. If outputs are too simple, ask for expert-level writing. If you dislike the format, demonstrate the format you’d like to see. The less GPTs have to guess at what you want, the more likely you’ll get it.
+
+- 
+:::
+<!-- ##  {background-image="/images/smart/smart6.png" background-opacity="1" background-size="cover" visibility="uncounted"} -->
 
 ##  {background-image="/images/smart/balloons.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
+::: {.notes}
+two directional, from picture to word and other wway around
+:::
 ## {background-video="video/kamigo.mp4" background-opacity="1"}
-
+::: {.notes}
+ChatBots as a coach/assistant for every one (business and customers) FAQ
+:::
 ## {background-video="video/python_api.mp4" background-opacity="1"}
-
-##  {background-image="/images/smart/next_token.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-
-## how does a GPT/LLM work
-
-::: {.r-stack}
-![](images/gpt/transformers-1.gif){.fragment .fade-in-then-out} 
-![](images/gpt/transformers-3.gif){.fragment .fade-in-then-out}
-![](images/gpt/transformers-2.png){.fragment .fade-in-then-out}
-![](images/gpt/att.png){.fragment .fade-in-then-out}
+::: {.notes}
+ChatBots internal knowledge base
 :::
 
-## training
+## Open source versus Paid {background-image="/images/huggingface.png" background-opacity="1" background-size="cover"}
 
-![](images/gpt/gpt_training.jpg)
-![](images/smart/RLFH.png)
+::: footer
+[open LLM leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+:::
 
-## Open source versus Paid
+## Open source versus Paid {background-image="/images/huggingface.png" background-opacity="0.1" background-size="cover" visibility="uncounted"}
 
 Cost versus Risk
 
@@ -673,16 +747,16 @@ faces AI or real all on 1 page
 
 <!-- ## Recommendation Engine {background-video="video/macy.mp4" background-opacity="0.8"} -->
 
-<!-- # Robotics {background-video="video/robotics.mp4" background-opacity="0.8"} -->
+# Robotics {background-video="video/robotics.mp4" background-opacity="0.8"}
 
 <!-- # Computer Vision {background-color="#522FD0" background-image="images/cv.png" background-size="cover"} -->
 
-<!-- ## Inventory Management {background-video="video/ikea.mp4" background-opacity="0.8"} -->
+## Computer Vision {background-video="video/ikea.mp4" background-opacity="0.8"}
 
 <!-- # Cognitive Intellignece {background-color="#F7BD8A" background-image="images/cc.png" background-size="cover"} -->
-
+<!-- Kuki -->
 <!-- # NLP {background-color="#52B7FD" background-image="images/nl.png" background-size="cover"} -->
-<!-- ::: notes -->
+<!-- ::: {.notes} -->
 <!-- Natural Language Processing (NLP): NLP techniques enable computers to understand, interpret, and generate human language. It involves tasks like speech recognition, sentiment analysis, machine translation, and text generation -->
 <!-- ::: -->
 
@@ -690,15 +764,17 @@ faces AI or real all on 1 page
 
 <!-- # Face of AI {background-video="video/drones.mp4" background-opacity="0.8"} -->
 ##  {background-image="/images/time_line/ft01.png" background-opacity="1" background-size="cover"}
-::: notes
+::: {.notes}
 **Narrow AI:** a.k.a. Weak AI                                                                    
                                                                                                  
  designed to perform specific tasks,\                                                            
  e.g. image recognition systems, and recommendation algorithms.                                  
 
+ a machine-based system designed to address a specific problem (such as playing Go or chess)
 :::
+
 ##  {background-image="/images/time_line/ft02.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-::: notes
+::: {.notes}
 Jobs - 10 x productivity\
 :::
 ##  {background-image="/images/time_line/ft03.png" background-opacity="1" background-size="cover" visibility="uncounted"}
@@ -708,14 +784,16 @@ Jobs - 10 x productivity\
 ##  {background-image="/images/time_line/ft07.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ft08.png" background-opacity="1" background-size="cover" visibility="uncounted"}
 ##  {background-image="/images/time_line/ft09.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-::: notes
+
+::: {.notes}
 **Artificial General Intelligence**: a.k.a. Strong AI or AGI,                                    
                                                                                                  
 possess human-like intelligence and can perform any intellectual task that a human being can do. 
-
+machines with the ability to solve many different types of problems on their own, like humans can
 :::
+
 ##  {background-image="/images/time_line/ft10.png" background-opacity="1" background-size="cover" visibility="uncounted"}
-::: notes
+::: {.notes}
 **Super intelligent AI:**                                                                      
                                                                                 
 surpass human intelligence in virtually every aspect, far beyond human capacity.               
@@ -802,14 +880,41 @@ AI techniques, such as **machine learning** and **deep learning**, utilize stati
 - [Black boxes](https://www.abc.net.au/news/2022-12-12/robodebt-algorithms-black-box-explainer/101215902)
 
 - [DLAI - Learning Platform Beta (deeplearning.ai)](https://learn.deeplearning.ai/login?redirect_course=chatgpt-prompt-eng)
+- [DLAI - Learning Platform Beta (deeplearning.ai)](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+
+- [chatgpt-retrieval](https://github.com/techleadhd/chatgpt-retrieval/tree/main)
+
+- [github copilot chat](https://www.youtube.com/watch?v=3surPGP7_4o)
+
+- [MS365 copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/)
+- [MS365 copilot teams](https://wus-streaming-video-rt-microsoft-com.akamaized.net/d23e95d2-ba4a-476a-8611-404dd230c620/3680d494-b141-4e53-a354-e78cff68_6750.mp4)
+
+- [robodebt](https://www.abc.net.au/news/2023-03-11/robodebt-scheme-government-royal-commission-fraud/102074840)
+
+- [History of AI](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)
+- [10 Best Milestones of AI](https://pythongeeks.org/10-best-milestones-of-ai/)
+- [AI has limitations](https://bigthink.com/the-future/what-ai-cannot-do/#:~:text=AI%20cannot%20create%2C%20conceptualize%2C%20or,domains%20or%20apply%20common%20sense)
+
 
 ## Video's {visibility="uncounted"}
+
+- [Sentiment analysis](https://monkeylearn.com/sentiment-analysis-online/)
+
+- [What managers need to now about AI](https://sloanreview.mit.edu/article/what-managers-need-to-know-about-artificial-intelligence)
+- [tokenizer](https://platform.openai.com/tokenizer)
+- [10-best-milestones-of-ai](https://pythongeeks.org/10-best-milestones-of-ai/)
+
+- [history of AI](https://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/)
+- [wide range of business applications](https://builtin.com/artificial-intelligence/examples-ai-in-industry)
+- [Google Vision API](https://cloud.google.com/vision/docs/drag-and-drop)
 
 -   [Reinforcement Learning](https://youtu.be/spfpBrBjntg)
 -   [OpenAI - Faulty reward functions in the wild](https://youtu.be/tlOIHko8ySg)
 -   [openAI - Hide and Seek](https://youtu.be/kopoLzvh5jY)
 
 # Prompts {visibility="uncounted"}
+-[Openai Best Practices PromptEngineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+
 
 ## BING Image Creator {visibility="uncounted"}
 
